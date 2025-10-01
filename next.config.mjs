@@ -11,7 +11,7 @@ const nextConfig = {
   assetPrefix:isProd ? '/FMKing/' : undefined,
 
   // optional but helpful for static hosting
-  // trailingSlash: true,
+  trailingSlash: true,
 
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
