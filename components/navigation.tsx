@@ -13,7 +13,7 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Image src={getImagePath("/logo.png")} alt="Company Logo" width={50} height={50} className="object-contain"/>
+          <Image src={getImagePath("/Logo.png")} alt="Company Logo" width={50} height={50} className="object-contain"/>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
