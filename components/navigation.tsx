@@ -23,9 +23,6 @@ export function Navigation() {
             <a href="/#work" className="text-sm font-medium hover:text-muted-foreground transition-colors">
               Work
             </a>
-            <a href="/gallery" className="text-sm font-medium hover:text-muted-foreground transition-colors">
-              Gallery
-            </a>
             <a href="/#contact" className="text-sm font-medium hover:text-muted-foreground transition-colors">
               Contact
             </a>
@@ -56,13 +53,6 @@ export function Navigation() {
                 onClick={() => setIsOpen(false)}
               >
                 Work
-              </a>
-              <a
-                href="/gallery"
-                className="block px-3 py-2 text-sm font-medium hover:bg-muted rounded-md"
-                onClick={() => setIsOpen(false)}
-              >
-                Gallery
               </a>
               <a
                 href="/#contact"
