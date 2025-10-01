@@ -1,8 +1,9 @@
+# .github/workflows/deploy.yml
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # or your default branch
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -24,8 +25,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run build
-      - run: touch out/.nojekyll   # make sure _next etc. aren’t ignored
+      - run: npm run build            # with output:'export' this creates ./out
+      - run: mkdir -p out && touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
