@@ -43,7 +43,7 @@ export function HeroAbout() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="font-medium" asChild>
-            <Link href="/FMKing/#contact">
+            <Link href="/#contact">
               Get Free Quote
             </Link>
           </Button>
@@ -52,7 +52,7 @@ export function HeroAbout() {
             size="lg"
             className="font-medium bg-transparent border-white text-white hover:bg-white hover:text-black"
           >
-            <Link href="/FMKing/#work">
+            <Link href="/#work">
               View our work
             </Link>
           </Button>
