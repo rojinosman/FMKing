@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import galleryData from "@/data/gallery-projects.json"
+import { getImagePath } from "@/lib/image-utils"
 
 const workCategories = galleryData.workCategories
 
@@ -130,7 +131,7 @@ const ChevronLeft = () => (
                     <CardContent className="p-0">
                     <div className="relative">
                         <img
-                        src={getCurrentImages()[currentImageIndex] || "/placeholder.svg"}
+                        src={getImagePath(getCurrentImages()[currentImageIndex] || "/placeholder.svg")}
                         alt={`${selectedProject.title} - ${imageType} ${currentImageIndex + 1}`}
                         className="w-full h-96 object-cover"
                         />
@@ -222,7 +223,7 @@ const ChevronLeft = () => (
                         onClick={() => handleProjectSelect(project)}
                         >
                         <img
-                            src={project.afterImages[0] || "/placeholder.svg"}
+                            src={getImagePath(project.afterImages[0] || "/placeholder.svg")}
                             alt={project.title}
                             className="w-full aspect-square object-cover"
                         />

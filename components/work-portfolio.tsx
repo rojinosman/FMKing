@@ -10,6 +10,7 @@ import type { GalleryData, GalleryProject, GalleryCategory, GallerySubcategory }
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import galleryData from "@/data/gallery-projects.json"
+import { getImagePath } from "@/lib/image-utils"
 
 
 // gallery JSON has a root object with `workCategories` array
@@ -158,7 +159,7 @@ export function WorkPortfolio() {
                 <CardContent className="p-0">
                 <div className="relative">
                     <img
-                    src={getCurrentImages()[currentImageIndex] || "/placeholder.svg"}
+                    src={getImagePath(getCurrentImages()[currentImageIndex] || "/placeholder.svg")}
                     alt={`${selectedProject.title} - ${imageType} ${currentImageIndex + 1}`}
                     className="w-full h-96 object-cover"
                     />
@@ -250,7 +251,7 @@ export function WorkPortfolio() {
                     onClick={() => handleProjectSelect(project)}
                     >
                     <img
-                        src={project.afterImages[0] || "/placeholder.svg"}
+                        src={getImagePath(project.afterImages[0] || "/placeholder.svg")}
                         alt={project.title}
                         className="w-full aspect-square object-cover"
                     />

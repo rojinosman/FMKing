@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { getImagePath } from "@/lib/image-utils"
 
 export function HeroAbout() {
   return (
@@ -6,7 +7,7 @@ export function HeroAbout() {
       id="about"
       className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16 relative bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/426670487557631334.jpg')",
+        backgroundImage: `url('${getImagePath('/426670487557631334.jpg')}')`,
       }}
     >
       <div className="absolute inset-0 bg-black/75"></div>
