@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { getImagePath } from "@/lib/image-utils"
+import Link from "next/link"
 
 export function HeroAbout() {
   return (
@@ -40,15 +41,19 @@ export function HeroAbout() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="font-medium">
-            Get Free Quote
+          <Button size="lg" className="font-medium" asChild>
+            <Link href="/FMKing/contact">
+              Get Free Quote
+            </Link>
           </Button>
           <Button
             variant="outline"
             size="lg"
             className="font-medium bg-transparent border-white text-white hover:bg-white hover:text-black"
           >
-            View Our Work
+            <Link href="/FMKing/work=portfolio">
+              View our work
+            </Link>
           </Button>
         </div>
       </div>
