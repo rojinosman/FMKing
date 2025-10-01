@@ -1,0 +1,1011 @@
+{
+    "workCategories": [
+        {
+        "id": "remodels",
+        "name": "Remodels",
+        "subcategories": [
+            {
+            "id": "kitchen",
+            "name": "Kitchen",
+            "projects": [
+                {
+                "id": 1,
+                "title": "Modern Kitchen Renovation",
+                "beforeImages": [
+                    "/Logo.png",
+                    "/Logo.png"
+                ],
+                "progressImages": [
+                    "/Logo.png",
+                    "/Logo.png",
+                    "/Logo.png"
+                ],
+                "afterImages": [
+                    "/modern-sleek-kitchen-after-renovation.jpg",
+                    "/sleek-contemporary-kitchen-after-renovation.jpg"
+                ],
+                "description": "Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances."
+                }
+                
+            ]
+            },
+            {
+            "id": "bathroom",
+            "name": "Bathroom",
+            "projects": [
+                {
+                "id": 17,
+                "title": "Master Bathroom Remodel",
+                "beforeImages": [
+                    "/image8.jpeg"
+                ],
+                "progressImages": [
+                    "/image2.jpeg",
+                    "/image3.jpeg",
+                    "/image4.jpeg",
+                    "/image9.jpeg",
+                    "/image7.jpeg"
+                ],
+                "afterImages": [
+                    "/image1.jpeg", 
+                    "/image5.jpeg",
+                    "/image6.jpeg"
+                ],
+                "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+                },
+                {
+                "id": 18,
+                "title": "Guest Bathroom Renovation",
+                "beforeImages": [
+                    "/old-bathroom-before-renovation.png", 
+                    "/old-bathroom-before-spa-renovation.jpg"],
+                "progressImages": [
+                    "/bathroom-demo-progress.jpg",
+                    "/bathroom-plumbing-progress.jpg",
+                    "/bathroom-tile-installation-progress.jpg"
+                ],
+                "afterImages": [
+                    "/luxury-modern-bathroom-after-renovation.jpg",
+                    "/luxury-spa-bathroom-after-renovation.jpg"
+                ],
+                "description": "Compact bathroom maximized with smart storage and modern fixtures."
+                },
+                {
+                "id": 19,
+                "title": "Spa Bathroom Transformation",
+                "beforeImages": [
+                    "/old-bathroom-before-renovation.png", 
+                    "/old-bathroom-before-spa-renovation.jpg"],
+                "progressImages": [
+                    "/bathroom-demo-progress.jpg",
+                    "/bathroom-plumbing-progress.jpg",
+                    "/bathroom-tile-installation-progress.jpg"
+                ],
+                "afterImages": [
+                    "/luxury-modern-bathroom-after-renovation.jpg",
+                    "/luxury-spa-bathroom-after-renovation.jpg"
+                ],
+                "description": "Transformed into a spa-like retreat with soaking tub and rainfall shower."
+                }
+            ]
+            },
+            {
+            "id": "stairs",
+            "name": "Stairs",
+            "projects": [
+                {
+                "id": 20,
+                "title": "Stairs",
+                "beforeImages": ["/placeholder.svg"],
+                "progressImages": ["/placeholder.svg"],
+                "afterImages": ["/white-stairs.jpeg"],
+                "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
+                }
+            ]
+            },
+            {
+            "id": "fireplace",
+            "name": "Fireplace",
+            "projects": [
+                {
+                "id": 21,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/modern-fireplace-after.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "HVAC",
+            "name": "HVAC",
+            "projects": [
+                {
+                "id": 21,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/modern-fireplace-after.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "plumbing",
+            "name": "Plumbing",
+            "projects": [
+                {
+                "id": 22,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/placeholder.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "pools",
+            "name": "Pools",
+            "projects": [
+                {
+                "id": 22,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/placeholder.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "electical",
+            "name": "Electrical",
+            "projects": [
+                {
+                "id": 23,
+                "title": "Electrical Panel Upgrade",
+                "beforeImages": ["/old-electrical-panel-before.jpg"],
+                "progressImages": ["/electrical-panel-installation-progress.jpg"],
+                "afterImages": ["/modern-electrical-panel-after.jpg"],
+                "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                }
+            ]
+            },
+            {
+            "id": "flooring",
+            "name": "Flooring",
+            "projects": [
+                {
+                "id": 24,
+                "title": "Hardwood Flooring Installation",
+                "beforeImages": ["/old-carpet-before-removal.jpg"],
+                "progressImages": ["/flooring-installation-progress.jpg"],
+                "afterImages": ["/beautiful-hardwood-flooring-after.jpg"],
+                "description": "Complete hardwood flooring installation with modern finish."
+                }
+            ]
+            },
+            {
+            "id": "gutters",
+            "name": "Gutters",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },
+            {
+            "id": "doors",
+            "name": "Doors",
+            "projects": [
+                {
+                "id": 25,
+                "title": "Custom Door Installation",
+                "beforeImages": ["/old-door-before-replacement.jpg"],
+                "progressImages": ["/door-installation-progress.jpg"],
+                "afterImages": ["/modern-custom-door-after.jpg"],
+                "description": "Custom door installation with modern hardware and finish."
+                }
+            ]
+            }
+            ]
+            },
+
+
+
+
+
+
+
+            
+            {
+        "id": "NewConstruction",
+        "name": "New Construction",
+        "subcategories": [
+            {
+            "id": "fireSystems",
+            "name": "Fire Systems",
+            "projects": [
+                {
+                "id": 26,
+                "title": "Two-Story Home Addition",
+                "beforeImages": ["/house-exterior-before-addition.jpg"],
+                "progressImages": [
+                    "/addition-foundation-progress.jpg",
+                    "/addition-framing-progress.jpg",
+                    "/addition-roofing-progress.jpg"
+                ],
+                "afterImages": ["/house-exterior-with-beautiful-addition.jpg"],
+                "description": "Two-story addition adding 800 sq ft of living space with seamless architectural integration."
+                },
+                {
+                "id": 27,
+                "title": "Master Suite Addition",
+                "beforeImages": ["/house-side-before-addition.jpg"],
+                "progressImages": ["/addition-foundation-progress.jpg", "/addition-framing-progress.jpg"],
+                "afterImages": ["/house-with-master-suite-addition.jpg"],
+                "description": "Luxurious master suite addition with walk-in closet and spa bathroom."
+                }
+            ]
+            },
+            {
+            "id": "electical",
+            "name": "Electrical",
+            "projects": [
+                {
+                "id": 28,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/placeholder.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "HVAC",
+            "name": "HVAC",
+            "projects": [
+                {
+                "id": 28,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/placeholder.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "pools",
+            "name": "Pools",
+            "projects": [
+                {
+                "id": 28,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/placeholder.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "doors",
+            "name": "Doors",
+            "projects": [
+                {
+                "id": 28,
+                "title": "Fireplace Installation",
+                "beforeImages": ["/old-fireplace-before-renovation.jpg"],
+                "progressImages": ["/fireplace-installation-progress.jpg"],
+                "afterImages": ["/placeholder.jpg"],
+                "description": "Complete fireplace installation with custom mantel and surround."
+                }
+            ]
+            },
+            {
+            "id": "drywall",
+            "name": "Drywall",
+            "projects": [
+                {
+                "id": 29,
+                "title": "Sunroom Addition",
+                "beforeImages": ["/house-backyard-before-sunroom-addition.jpg"],
+                "progressImages": ["/sunroom-foundation-progress.jpg", "/sunroom-framing-progress.jpg"],
+                "afterImages": ["/house-with-beautiful-sunroom-addition.jpg"],
+                "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+                }
+            ]
+            },
+            {
+            "id": "windows",
+            "name": "Windows",
+            "projects": [
+                {
+                "id": 30,
+                "title": "Sunroom Addition",
+                "beforeImages": ["/house-backyard-before-sunroom-addition.jpg"],
+                "progressImages": ["/sunroom-foundation-progress.jpg", "/sunroom-framing-progress.jpg"],
+                "afterImages": ["/house-with-beautiful-sunroom-addition.jpg"],
+                "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+                }
+            ]
+            },
+            {
+                "id": "foundation",
+                "name": "Foundation",
+                "projects": [
+                    {
+                    "id": 31,
+                    "title": "Sunroom Addition",
+                    "beforeImages": ["/house-backyard-before-sunroom-addition.jpg"],
+                    "progressImages": ["/sunroom-foundation-progress.jpg", "/sunroom-framing-progress.jpg"],
+                    "afterImages": ["/house-with-beautiful-sunroom-addition.jpg"],
+                    "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+                    }
+                ]
+            },
+            {
+                "id": "frame",
+                "name": "Frame",
+                "projects": [
+                    {
+                    "id": 32,
+                    "title": "Sunroom Addition",
+                    "beforeImages": ["/house-backyard-before-sunroom-addition.jpg"],
+                    "progressImages": ["/sunroom-foundation-progress.jpg", "/sunroom-framing-progress.jpg"],
+                    "afterImages": ["/house-with-beautiful-sunroom-addition.jpg"],
+                    "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+                    }
+                ]
+            },
+            {
+                "id": "stucco",
+                "name": "Stucco",
+                "projects": [
+                    {
+                    "id": 33,
+                    "title": "Sunroom Addition",
+                    "beforeImages": ["/house-backyard-before-sunroom-addition.jpg"],
+                    "progressImages": ["/sunroom-foundation-progress.jpg", "/sunroom-framing-progress.jpg"],
+                    "afterImages": ["/house-with-beautiful-sunroom-addition.jpg"],
+                    "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+                    }
+                ]
+            },
+            {
+                "id": "insulation",
+                "name": "Insulation",
+                "projects": [
+                    {
+                    "id": 34,
+                    "title": "Sunroom Addition",
+                    "beforeImages": ["/house-backyard-before-sunroom-addition.jpg"],
+                    "progressImages": ["/sunroom-foundation-progress.jpg", "/sunroom-framing-progress.jpg"],
+                    "afterImages": ["/house-with-beautiful-sunroom-addition.jpg"],
+                    "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+                    }
+                ]
+            },
+            {
+                "id": "roofing",
+                "name": "Roofing",
+                "projects": [
+                    {
+                    "id": 35,
+                    "title": "Sunroom Addition",
+                    "beforeImages": ["/house-backyard-before-sunroom-addition.jpg"],
+                    "progressImages": ["/sunroom-foundation-progress.jpg", "/sunroom-framing-progress.jpg"],
+                    "afterImages": ["/house-with-beautiful-sunroom-addition.jpg"],
+                    "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+                    }
+                ]
+            },
+            {
+            "id": "gutters",
+            "name": "Gutters",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },        
+            {
+            "id": "plumbing",
+            "name": "Plumbing",
+            "projects": [
+                {
+                "id": 36,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+        }
+        
+        ]
+        },
+
+
+
+
+
+        {
+        "id": "landscaping",
+        "name": "Landscaping",
+        "subcategories": [
+            {
+            "id": "plumbing",
+            "name": "Plumbing",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },
+            {
+            "id": "manCave",
+            "name": "Man Cave",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },
+            {
+            "id": "gasFixtures",
+            "name": "Gas Fixtures",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },
+            {
+            "id": "gazebo",
+            "name": "Gazebo",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },
+            {
+            "id": "DirtWork",
+            "name": "Dirt Work",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },
+            {
+            "id": "fencing",
+            "name": "Fencing",
+            "projects": [
+                {
+                "id": 37,
+                "title": "Pipe Replacement Project",
+                "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                }
+            ]
+            },
+            {
+            "id": "electrical",
+            "name": "Electrical",
+            "projects": [
+                {
+                "id": 39,
+                "title": "Panel Upgrade & Rewiring",
+                "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                }
+            ]
+            },
+            {
+                "id": "concrete",
+                "name": "Concrete",
+                "projects": [
+                    {
+                    "id": 41,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                    "id": "gutters",
+                    "name": "Gutters",
+                    "projects": [
+                        {
+                        "id": 37,
+                        "title": "Pipe Replacement Project",
+                        "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                        "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                        "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                        "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                        }
+                    ]
+                    },
+                
+            {
+                "id": "turf",
+                "name": "Turf",
+                "projects": [
+                    {
+                    "id": 43,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                    "id": "retainingWall",
+                    "name": "Retaining Wall",
+                    "projects": [
+                        {
+                        "id": 43,
+                        "title": "Panel Upgrade & Rewiring",
+                        "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                        "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                        "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                        "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                        }
+                    ]
+                }
+        ]
+        },
+
+
+
+
+
+
+
+
+
+        {
+        "id": "commercial",
+        "name": "Commercial",
+        "subcategories": [
+            {
+            "id": "plumbing",
+            "name": "Plumbing",
+            "projects": [
+                {
+                "id": 45,
+                "title": "Pipe Replacement Project",
+                    "beforeImages": ["/old-corroded-pipes-before.jpg", "/old-bathroom-before-renovation.png"],
+                    "progressImages": ["/pipe-replacement-progress.jpg", "/plumbing-installation-progress.jpg"],
+                    "afterImages": ["/new-copper-pipes-after.jpg", "/luxury-modern-bathroom-after-renovation.jpg"],
+                    "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+                    },
+                {
+                "id": 46,
+                "title": "Bathroom Plumbing Upgrade",
+                "beforeImages": ["/old-bathroom-before-renovation.png"],
+                "progressImages": ["/plumbing-installation-progress.jpg"],
+                "afterImages": ["/luxury-modern-bathroom-after-renovation.jpg"],
+                "description": "Updated all bathroom plumbing fixtures with modern, water-efficient components."
+                }
+                ]
+                },
+                {
+                "id": "electrical",
+                "name": "Electrical",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "frame",
+                "name": "Frame",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "stucco",
+                "name": "Stucco",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "flooring",
+                "name": "Flooring",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "buildingDeaigns",
+                "name": "Building Deaigns",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "maintnence",
+                "name": "Maintnence",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "paint",
+                "name": "Paint",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "roofing",
+                "name": "Roofing",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "HVAC",
+                "name": "HVAC",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "cabinetry",
+                "name": "Cabinetry",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "electricalnPanel",
+                "name": "Electricaln Panel",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "foundation",
+                "name": "Foundation",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "bathroom",
+                "name": "Bathroom",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "doors",
+                "name": "Doors",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "windows",
+                "name": "Windows",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "metalBeams",
+                "name": "metalBeams",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "base boards",
+                "name": "baseBoards",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "landscaping",
+                "name": "landscaping",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "insulation",
+                "name": "Insulation",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "concreteWork",
+                "name": "Concrete Work",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "fencing",
+                "name": "Fencing",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "gasFixtures",
+                "name": "Gas Fixtures",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "fridges",
+                "name": "Fridges",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "barAreaConstruction",
+                "name": "Bar Area Construction",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "StoneWork",
+                "name": "Stone Work",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                },
+                {
+                "id": "waterHeater",
+                "name": "Water Heater",
+                "projects": [
+                    {
+                    "id": 47,
+                    "title": "Panel Upgrade & Rewiring",
+                    "beforeImages": ["/old-electrical-panel-before.jpg", "/outdated-kitchen-before-renovation.jpg"],
+                    "progressImages": ["/electrical-panel-installation-progress.jpg", "/electrical-wiring-progress.jpg"],
+                    "afterImages": ["/modern-electrical-panel-after.jpg", "/modern-sleek-kitchen-after-renovation.jpg"],
+                    "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+                    }
+                ]
+                }
+            ]
+            }
+    ]
+}
