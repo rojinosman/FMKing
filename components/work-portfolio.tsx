@@ -53,12 +53,19 @@ export function WorkPortfolio() {
     const images = getCurrentImages()
     if (images.length <= 1) return
 
+    // Check if current media is a video
+    const currentMedia = images[currentImageIndex] || ""
+    const isVideo = currentMedia.endsWith('.mp4') || currentMedia.endsWith('.webm') || currentMedia.endsWith('.ogg')
+
+    // If it's a video, don't auto-advance (let video play fully)
+    if (isVideo) return
+
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % images.length)
     }, 3000) // Change image every 3 seconds
 
     return () => clearInterval(interval)
-  }, [selectedProject, imageType])
+  }, [selectedProject, imageType, currentImageIndex])
 
   // Reset image index when project or mode changes
   useEffect(() => {
@@ -158,11 +165,34 @@ export function WorkPortfolio() {
             <Card className="overflow-hidden mb-8">
                 <CardContent className="p-0">
                 <div className="relative">
-                    <img
-                    src={getImagePath(getCurrentImages()[currentImageIndex] || "/placeholder.svg")}
-                    alt={`${selectedProject.title} - ${imageType} ${currentImageIndex + 1}`}
-                    className="w-full h-96 object-cover"
-                    />
+                    {(() => {
+                      const currentMedia = getCurrentImages()[currentImageIndex] || "/placeholder.svg"
+                      const isVideo = currentMedia.endsWith('.mp4') || currentMedia.endsWith('.webm') || currentMedia.endsWith('.ogg')
+                      
+                      if (isVideo) {
+                        return (
+                          <div className="w-full h-96 bg-black flex items-center justify-center">
+                            <video
+                              key={currentMedia}
+                              src={getImagePath(currentMedia)}
+                              className="max-w-full max-h-96 object-contain"
+                              autoPlay
+                              loop
+                              muted
+                              playsInline
+                            />
+                          </div>
+                        )
+                      }
+                      
+                      return (
+                        <img
+                          src={getImagePath(currentMedia)}
+                          alt={`${selectedProject.title} - ${imageType} ${currentImageIndex + 1}`}
+                          className="w-full h-96 object-cover"
+                        />
+                      )
+                    })()}
                     <div className="absolute top-4 left-4">
                     <Badge className="bg-background/90 text-foreground capitalize">
                         {imageType}{" "}

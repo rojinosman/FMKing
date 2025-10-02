@@ -20,26 +20,42 @@ export function ContactSection() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }))
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
 
     try {
-      const response = await fetch('/api/contact', {
+      // Using Formspree - create account at formspree.io and replace with your form ID
+      // For now, using a demo endpoint
+      const response = await fetch('https://formspree.io/f/xanykorv', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          project: formData.project,
+          message: formData.message,
+          _replyto: formData.email,
+          _subject: `Contact Form: ${formData.project || 'General Inquiry'}`,
+        }),
       })
-
-      const result = await response.json()
 
       if (response.ok) {
         toast({
           title: "Message sent successfully!",
           description: "Thank you for your inquiry. We'll get back to you soon.",
         })
+
         // Reset form
         setFormData({
           name: "",
@@ -49,28 +65,18 @@ export function ContactSection() {
           message: "",
         })
       } else {
-        toast({
-          title: "Error sending message",
-          description: result.error || "Please try again later.",
-          variant: "destructive",
-        })
+        throw new Error('Failed to send message')
       }
     } catch (error) {
+      console.error('Form submission error:', error)
       toast({
         title: "Error sending message",
-        description: "Please check your connection and try again.",
+        description: "Please try again later or contact us directly at rojindawood@gmail.com",
         variant: "destructive",
       })
     } finally {
       setIsSubmitting(false)
     }
-  }
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }))
   }
 
   return (

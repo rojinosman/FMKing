@@ -1,6 +1,6 @@
 # Email Setup Instructions
 
-To enable the contact form to send emails to rojindawood04@gmail.com, you need to set up environment variables.
+To enable the contact form to send emails to rojindawood@gmail.com, you need to set up environment variables.
 
 ## Steps:
 
@@ -29,7 +29,7 @@ EMAIL_PASS=your-gmail-app-password
 
 ## Testing:
 
-Once configured, the contact form will send emails to rojindawood04@gmail.com with all the form details including:
+Once configured, the contact form will send emails to rojindawood@gmail.com with all the form details including:
 - Name
 - Email
 - Phone number
