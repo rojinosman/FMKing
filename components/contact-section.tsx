@@ -32,9 +32,12 @@ export function ContactSection() {
     setIsSubmitting(true)
 
     try {
-      // Using Formspree - create account at formspree.io and replace with your form ID
-      // For now, using a demo endpoint
-      const response = await fetch('https://formspree.io/f/xanykorv', {
+      const formSpreeUrl = process.env.NEXT_PUBLIC_FORM_SPREE_URL
+      if (!formSpreeUrl) {
+        throw new Error('Form submission URL not configured')
+      }
+      
+      const response = await fetch(formSpreeUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
