@@ -52,42 +52,46 @@
                 "/image6.jpeg"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
-            },
+            }
+          ]
+        },
+        {
+          "id": "fireplace",
+          "name": "Fireplace",
+          "projects": [
             {
-              "id": 18,
-              "title": "Guest Bathroom Renovation",
+              "id": 21,
+              "title": "Fireplace Installation",
               "beforeImages": [
-                "/placeholder.jpg",
                 "/placeholder.jpg"
               ],
               "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg",
                 "/placeholder.jpg"
               ],
               "afterImages": [
-                "/placeholder.jpg",
                 "/placeholder.jpg"
               ],
-              "description": "Compact bathroom maximized with smart storage and modern fixtures."
-            },
+              "description": "Complete fireplace installation with custom mantel and surround."
+            }
+          ]
+        },
+        {
+          "id": "pools",
+          "name": "Pools",
+          "projects": [
             {
-              "id": 19,
-              "title": "Spa Bathroom Transformation",
+              "id": 22,
+              "title": "Fireplace Installation",
               "beforeImages": [
-                "/placeholder.jpg",
                 "/placeholder.jpg"
               ],
               "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg",
                 "/placeholder.jpg"
               ],
               "afterImages": [
-                "/placeholder.jpg",
                 "/placeholder.jpg"
               ],
-              "description": "Transformed into a spa-like retreat with soaking tub and rainfall shower."
+              "description": "Complete fireplace installation with custom mantel and surround."
             }
           ]
         },
@@ -112,12 +116,12 @@
           ]
         },
         {
-          "id": "fireplace",
-          "name": "Fireplace",
+          "id": "flooring",
+          "name": "Flooring",
           "projects": [
             {
-              "id": 21,
-              "title": "Fireplace Installation",
+              "id": 24,
+              "title": "Hardwood Flooring Installation",
               "beforeImages": [
                 "/placeholder.jpg"
               ],
@@ -127,7 +131,27 @@
               "afterImages": [
                 "/placeholder.jpg"
               ],
-              "description": "Complete fireplace installation with custom mantel and surround."
+              "description": "Complete hardwood flooring installation with modern finish."
+            }
+          ]
+        },
+        {
+          "id": "doors",
+          "name": "Doors",
+          "projects": [
+            {
+              "id": 25,
+              "title": "Custom Door Installation",
+              "beforeImages": [
+                "/placeholder.jpg"
+              ],
+              "progressImages": [
+                "/placeholder.jpg"
+              ],
+              "afterImages": [
+                "/placeholder.jpg"
+              ],
+              "description": "Custom door installation with modern hardware and finish."
             }
           ]
         },
@@ -172,26 +196,6 @@
           ]
         },
         {
-          "id": "pools",
-          "name": "Pools",
-          "projects": [
-            {
-              "id": 22,
-              "title": "Fireplace Installation",
-              "beforeImages": [
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg"
-              ],
-              "description": "Complete fireplace installation with custom mantel and surround."
-            }
-          ]
-        },
-        {
           "id": "electical",
           "name": "Electrical",
           "projects": [
@@ -208,26 +212,6 @@
                 "/placeholder.jpg"
               ],
               "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
-            }
-          ]
-        },
-        {
-          "id": "flooring",
-          "name": "Flooring",
-          "projects": [
-            {
-              "id": 24,
-              "title": "Hardwood Flooring Installation",
-              "beforeImages": [
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg"
-              ],
-              "description": "Complete hardwood flooring installation with modern finish."
             }
           ]
         },
@@ -253,29 +237,14 @@
               "description": "Complete pipe replacement from old galvanized to modern copper piping system."
             }
           ]
-        },
-        {
-          "id": "doors",
-          "name": "Doors",
-          "projects": [
-            {
-              "id": 25,
-              "title": "Custom Door Installation",
-              "beforeImages": [
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg"
-              ],
-              "description": "Custom door installation with modern hardware and finish."
-            }
-          ]
         }
       ]
     },
+
+
+
+
+
     {
       "id": "NewConstruction",
       "name": "New Construction",
@@ -592,105 +561,19 @@
         }
       ]
     },
+
+
+
+
+
+
     {
       "id": "landscaping",
       "name": "Landscaping",
       "subcategories": [
         {
-          "id": "plumbing",
-          "name": "Plumbing",
-          "projects": [
-            {
-              "id": 37,
-              "title": "Pipe Replacement Project",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
-            }
-          ]
-        },
-        {
-          "id": "manCave",
-          "name": "Man Cave",
-          "projects": [
-            {
-              "id": 37,
-              "title": "Pipe Replacement Project",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
-            }
-          ]
-        },
-        {
-          "id": "gasFixtures",
-          "name": "Gas Fixtures",
-          "projects": [
-            {
-              "id": 37,
-              "title": "Pipe Replacement Project",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
-            }
-          ]
-        },
-        {
           "id": "gazebo",
           "name": "Gazebo",
-          "projects": [
-            {
-              "id": 37,
-              "title": "Pipe Replacement Project",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
-            }
-          ]
-        },
-        {
-          "id": "DirtWork",
-          "name": "Dirt Work",
           "projects": [
             {
               "id": 37,
@@ -735,54 +618,8 @@
           ]
         },
         {
-          "id": "electrical",
-          "name": "Electrical",
-          "projects": [
-            {
-              "id": 39,
-              "title": "Panel Upgrade & Rewiring",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
-            }
-          ]
-        },
-        {
-          "id": "concrete",
-          "name": "Concrete",
-          "projects": [
-            {
-              "id": 41,
-              "title": "Panel Upgrade & Rewiring",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
-            }
-          ]
-        },
-        {
-          "id": "gutters",
-          "name": "Gutters",
+          "id": "DirtWork",
+          "name": "Dirt Work",
           "projects": [
             {
               "id": 37,
@@ -827,6 +664,121 @@
           ]
         },
         {
+          "id": "concrete",
+          "name": "Concrete",
+          "projects": [
+            {
+              "id": 41,
+              "title": "Panel Upgrade & Rewiring",
+              "beforeImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "progressImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "afterImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+            }
+          ]
+        },
+        {
+          "id": "electrical",
+          "name": "Electrical",
+          "projects": [
+            {
+              "id": 39,
+              "title": "Panel Upgrade & Rewiring",
+              "beforeImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "progressImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "afterImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+            }
+          ]
+        },
+        {
+          "id": "plumbing",
+          "name": "Plumbing",
+          "projects": [
+            {
+              "id": 37,
+              "title": "Pipe Replacement Project",
+              "beforeImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "progressImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "afterImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+            }
+          ]
+        },
+        {
+          "id": "gasFixtures",
+          "name": "Gas Fixtures",
+          "projects": [
+            {
+              "id": 37,
+              "title": "Pipe Replacement Project",
+              "beforeImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "progressImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "afterImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+            }
+          ]
+        },
+        {
+          "id": "gutters",
+          "name": "Gutters",
+          "projects": [
+            {
+              "id": 37,
+              "title": "Pipe Replacement Project",
+              "beforeImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "progressImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "afterImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+            }
+          ]
+        },
+        {
           "id": "retainingWall",
           "name": "Retaining Wall",
           "projects": [
@@ -851,11 +803,40 @@
         }
       ]
     },
+
+
+
+
+
+
+
     {
       "id": "commercial",
       "name": "Commercial",
       "subcategories": [
         {
+          "id": "barAreaConstruction",
+          "name": "Bar Area Construction",
+          "projects": [
+            {
+              "id": 47,
+              "title": "Panel Upgrade & Rewiring",
+              "beforeImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "progressImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "afterImages": [
+                "/placeholder.jpg",
+                "/placeholder.jpg"
+              ],
+              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+            }
+          ]
+        },{
           "id": "plumbing",
           "name": "Plumbing",
           "projects": [
@@ -875,11 +856,11 @@
                 "/placeholder.jpg"
               ],
               "description": "Complete pipe replacement from old galvanized to modern copper piping system."
-            },
-            {
-              "id": 46,
-              "title": "Bathroom Plumbing Upgrade",
-              "beforeImages": [
+          },
+          {
+            "id": 46,
+            "title": "Bathroom Plumbing Upgrade",
+            "beforeImages": [
                 "/placeholder.jpg"
               ],
               "progressImages": [
@@ -1079,29 +1060,6 @@
         {
           "id": "HVAC",
           "name": "HVAC",
-          "projects": [
-            {
-              "id": 47,
-              "title": "Panel Upgrade & Rewiring",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
-            }
-          ]
-        },
-        {
-          "id": "cabinetry",
-          "name": "Cabinetry",
           "projects": [
             {
               "id": 47,
@@ -1401,29 +1359,6 @@
         {
           "id": "fridges",
           "name": "Fridges",
-          "projects": [
-            {
-              "id": 47,
-              "title": "Panel Upgrade & Rewiring",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
-            }
-          ]
-        },
-        {
-          "id": "barAreaConstruction",
-          "name": "Bar Area Construction",
           "projects": [
             {
               "id": 47,
