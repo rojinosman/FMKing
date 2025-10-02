@@ -17,13 +17,13 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/FMKing/#about" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+            <a href="/#about" className="text-sm font-medium hover:text-muted-foreground transition-colors">
               About
             </a>
-            <a href="/FMKing/#work" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+            <a href="/#work" className="text-sm font-medium hover:text-muted-foreground transition-colors">
               Work
             </a>
-            <a href="/FMKing/#contact" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+            <a href="/#contact" className="text-sm font-medium hover:text-muted-foreground transition-colors">
               Contact
             </a>
           </div>
@@ -41,21 +41,21 @@ export function Navigation() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-background border-t border-border">
               <a
-                href="/FMKing/#about"
+                href="/#about"
                 className="block px-3 py-2 text-sm font-medium hover:bg-muted rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 About
               </a>
               <a
-                href="/FMKing/#work"
+                href="/#work"
                 className="block px-3 py-2 text-sm font-medium hover:bg-muted rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 Work
               </a>
               <a
-                href="/FMKing/#contact"
+                href="/#contact"
                 className="block px-3 py-2 text-sm font-medium hover:bg-muted rounded-md"
                 onClick={() => setIsOpen(false)}
               >
