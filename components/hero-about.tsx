@@ -18,27 +18,19 @@ export function HeroAbout() {
         <div className="mb-8">
           <p className="text-sm font-mono text-gray-200 mb-4">Professional Contracting Services</p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-balance mb-6">
-            "possible slogan"
+            From Vision to Masterpiece
           </h1>
           <p className="text-lg sm:text-xl text-gray-200 max-w-2xl mx-auto text-pretty leading-relaxed">
-            "insert message"
+          We turn your ideas into reality through reliable construction and exceptional attention to detail
           </p>
           <p className="text-lg text-gray-300 mt-4 font-large">Fully Licensed & Insured • CSLB Licensed Contractor</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-2">
-          <div className="text-left">
-            <h3 className="text-lg font-semibold mb-3">Our Expertise??</h3>
+        <div className="justify-center gap-8 mb-2 ">
+            <h3 className="text-lg font-semibold mb-3">Our Expertise</h3>
             <p className="text-gray-200 leading-relaxed">
-              "blah blah blah"
+              We cover all your construction needs from building new structures to repairing existing ones.
             </p>
-          </div>
-          <div className="text-left">
-            <h3 className="text-lg font-semibold mb-3">Our Promise??</h3>
-            <p className="text-gray-200 leading-relaxed">
-              "blah blah blah"
-            </p>
-          </div>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
