@@ -87,7 +87,7 @@
               "id": 19,
               "title": "Bathroom Remodel",
               "progressImages" : [
-                "/bathroom/f-bathroom-single-black-sink.MP4"  //error here - come back to fix
+                "/bathroom/f-bathroom-single-black-sink.MP4"
               ],
               "afterImages": [
                 "/bathroom/f-bathroom-toilet.JPG",
