@@ -11,50 +11,60 @@
             {
               "id": 1,
               "title": "Modern Kitchen Renovation",
-              "beforeImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg",
-                "/placeholder.jpg",
-                "/sink-video.mp4"
-              ],
               "afterImages": [
-                "/placeholder.jpg",
-                "/placeholder.jpg"
+                "/white-kitchen-video.mp4"
+              ],
+              "description": "Complete kitchen transformation with custom cabinetry, quartz countertops."
+            },
+            {
+              "id": 2,
+              "title": "Modern Kitchen Sink Transformation",
+              "afterImages": [
+                "/sink-video.mp4"
               ],
               "description": "Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances."
             }
           ]
         },
+
+
         {
           "id": "bathroom",
           "name": "Bathroom",
           "projects": [
             {
               "id": 17,
-              "title": "Master Bathroom Remodel",
-              "beforeImages": [
-                "/image8.jpeg"
+              "title": "Shower Remodel",
+              "afterImages": [
+                "/white-shower1.jpeg"
               ],
-              "progressImages": [
-                "/image2.jpeg",
-                "/image3.jpeg",
-                "/image4.jpeg",
-                "/image9.jpeg",
-                "/image7.jpeg"
+              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+            },
+            {
+              "id": 18,
+              "title": "Master Bathroom Remodel",
+              "beforeImages" : [
+                "/b-bathroom-1-1.JPG",
+                "/ip-bathroom-wall-1-1.JPG"
               ],
               "afterImages": [
-                "/image1.jpeg",
-                "/image5.jpeg",
-                "/image6.jpeg"
+                "/f-corner-shower-1-1.jpeg",
+                "/f-corner-shower-1-2.jpeg"
+              ],
+              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+            },
+            {
+              "id": 17,
+              "title": "Master Bathroom Remodel",
+              "afterImages": [
+                "/white-shower1.jpeg"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             }
           ]
         },
+
+        
         {
           "id": "fireplace",
           "name": "Fireplace",

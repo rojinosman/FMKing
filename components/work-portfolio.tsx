@@ -29,8 +29,25 @@ export function WorkPortfolio() {
   const [selectedProject, setSelectedProject] = useState<GalleryProject>(
     (workCategories[0]?.subcategories?.[0]?.projects?.[0] as GalleryProject) ?? ({} as GalleryProject)
   )
-  const [showMode, setShowMode] = useState<"before" | "inprogress" | "after">("before")
-  const [imageType, setImageType] = useState<"before" | "progress" | "after">("before")
+  
+  // Helper to get first available image type for a project
+  const getFirstAvailableImageType = (project: GalleryProject): "before" | "progress" | "after" => {
+    if (project.beforeImages && project.beforeImages.length > 0) return "before"
+    if (project.progressImages && project.progressImages.length > 0) return "progress"
+    return "after"
+  }
+
+  const [showMode, setShowMode] = useState<"before" | "inprogress" | "after">(() => {
+    const firstProject = workCategories[0]?.subcategories?.[0]?.projects?.[0]
+    if (!firstProject) return "before"
+    const firstType = getFirstAvailableImageType(firstProject as GalleryProject)
+    return firstType === "progress" ? "inprogress" : firstType as any
+  })
+  const [imageType, setImageType] = useState<"before" | "progress" | "after">(() => {
+    const firstProject = workCategories[0]?.subcategories?.[0]?.projects?.[0]
+    if (!firstProject) return "before"
+    return getFirstAvailableImageType(firstProject as GalleryProject)
+  })
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   // Get current images based on show mode
@@ -77,17 +94,23 @@ export function WorkPortfolio() {
     const firstSub = category.subcategories?.[0] as GallerySubcategory | undefined
     const firstProject = firstSub?.projects?.[0] as GalleryProject | undefined
     if (firstSub) setSelectedSubcategory(firstSub)
-    if (firstProject) setSelectedProject(firstProject)
-    setShowMode("before")
-    setImageType("before")
+    if (firstProject) {
+      setSelectedProject(firstProject)
+      const firstType = getFirstAvailableImageType(firstProject)
+      setImageType(firstType)
+      setShowMode(firstType === "progress" ? "inprogress" : firstType as any)
+    }
   }
 
   const handleSubcategorySelect = (subcategory: GallerySubcategory) => {
     setSelectedSubcategory(subcategory)
     const firstProject = subcategory?.projects?.[0] as GalleryProject | undefined
-    if (firstProject) setSelectedProject(firstProject)
-    setShowMode("before")
-    setImageType("before")
+    if (firstProject) {
+      setSelectedProject(firstProject)
+      const firstType = getFirstAvailableImageType(firstProject)
+      setImageType(firstType)
+      setShowMode(firstType === "progress" ? "inprogress" : firstType as any)
+    }
   }
 
   const handleImageTypeToggle = (type: "before" | "progress" | "after") => {
@@ -112,7 +135,9 @@ export function WorkPortfolio() {
 
   const handleProjectSelect = (project: GalleryProject) => {
     setSelectedProject(project)
-    setImageType("before")
+    const firstType = getFirstAvailableImageType(project)
+    setImageType(firstType)
+    setShowMode(firstType === "progress" ? "inprogress" : firstType as any)
     setCurrentImageIndex(0)
   }
 
@@ -186,11 +211,13 @@ export function WorkPortfolio() {
                       }
                       
                       return (
-                        <img
-                          src={getImagePath(currentMedia)}
-                          alt={`${selectedProject.title} - ${imageType} ${currentImageIndex + 1}`}
-                          className="w-full h-96 object-cover"
-                        />
+                        <div className="w-full h-96 bg-muted flex items-center justify-center">
+                          <img
+                            src={getImagePath(currentMedia)}
+                            alt={`${selectedProject.title} - ${imageType} ${currentImageIndex + 1}`}
+                            className="max-w-full max-h-96 object-contain"
+                          />
+                        </div>
                       )
                     })()}
                     <div className="absolute top-4 left-4">
@@ -229,20 +256,24 @@ export function WorkPortfolio() {
                     </div>
                     </div>
                     <div className="flex gap-2">
-                    <Button
-                        variant={imageType === "before" ? "default" : "outline"}
-                        size="sm"
-                        onClick={() => handleImageTypeToggle("before")}
-                    >
-                        Before ({selectedProject.beforeImages.length})
-                    </Button>
-                    <Button
-                        variant={imageType === "progress" ? "default" : "outline"}
-                        size="sm"
-                        onClick={() => handleImageTypeToggle("progress")}
-                    >
-                        Progress ({selectedProject.progressImages?.length ?? 0})
-                    </Button>
+                    {selectedProject.beforeImages && selectedProject.beforeImages.length > 0 && (
+                      <Button
+                          variant={imageType === "before" ? "default" : "outline"}
+                          size="sm"
+                          onClick={() => handleImageTypeToggle("before")}
+                      >
+                          Before ({selectedProject.beforeImages.length})
+                      </Button>
+                    )}
+                    {selectedProject.progressImages && selectedProject.progressImages.length > 0 && (
+                      <Button
+                          variant={imageType === "progress" ? "default" : "outline"}
+                          size="sm"
+                          onClick={() => handleImageTypeToggle("progress")}
+                      >
+                          Progress ({selectedProject.progressImages.length})
+                      </Button>
+                    )}
                     <Button
                         variant={imageType === "after" ? "default" : "outline"}
                         size="sm"

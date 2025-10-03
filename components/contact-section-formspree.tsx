@@ -16,12 +16,10 @@ export function ContactSection() {
     const formData = new FormData(e.currentTarget)
     
     try {
-      const response = await fetch('https://formspree.io/f/xovkwjpr/', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
+       const response = await fetch('https://formspree.io/f/xovkwjpr', {
+           method: 'POST',
+           headers: { 'Accept': 'application/json' }, 
+           body: formData,
       })
 
       if (response.ok) {

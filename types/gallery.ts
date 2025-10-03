@@ -2,7 +2,7 @@ export interface GalleryProject {
   id: number
   title: string
   description?: string
-  beforeImages: string[]
+  beforeImages?: string[]
   progressImages?: string[]
   afterImages: string[]
 }
