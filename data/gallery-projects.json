@@ -12,7 +12,7 @@
               "id": 1,
               "title": "Modern Kitchen Renovation",
               "afterImages": [
-                "/white-kitchen-video.mp4"
+                "/kitchen/white-kitchen-video.mp4"
               ],
               "description": "Complete kitchen transformation with custom cabinetry, quartz countertops."
             },
@@ -20,7 +20,7 @@
               "id": 2,
               "title": "Modern Kitchen Sink Transformation",
               "afterImages": [
-                "/sink-video.mp4"
+                "/kitchen/sink-video.mp4"
               ],
               "description": "Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances."
             }
@@ -36,10 +36,10 @@
               "id": 15,
               "title": "Shower Remodel",
               "beforeImages" : [
-                "/ip-corrner-shower1.jpeg"
+                "/bathroom/ip-corrner-shower1.jpeg"
               ],
               "afterImages": [
-                "/white-shower1.jpeg"
+                "/bathroom/white-shower1.jpeg"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
@@ -48,12 +48,12 @@
               "id": 16,
               "title": "Master Bathroom Remodel",
               "beforeImages" : [
-                "/b-bathroom-1-1.JPG",
-                "/ip-bathroom-wall-1-1.JPG"
+                "/bathroom/b-bathroom-1-1.JPG",
+                "/bathroom/ip-bathroom-wall-1-1.JPG"
               ],
               "afterImages": [
-                "/f-corner-shower-1-1.jpeg",
-                "/f-corner-shower-1-2.jpeg"
+                "/bathroom/f-corner-shower-1-1.jpeg",
+                "/bathroom/f-corner-shower-1-2.jpeg"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
@@ -62,7 +62,7 @@
               "id": 17,
               "title": "Master Bathroom Remodel",
               "afterImages": [
-                "/f-bathroom-gray-stone-1-1.JPG"
+                "/bathroom/f-bathroom-gray-stone-1-1.JPG"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
@@ -71,14 +71,14 @@
               "id": 18,
               "title": "Bathroom Remodel",
               "progressImages" : [
-                "/ip-bathroom-stonework-1-1.JPG",
-                "/ip-bathroom-stonework-1-2.JPG",
-                "/ip-bathroom-stonework-1-3.JPG",
-                "/ip-bathroom-stonework-1-4.JPG"
+                "/bathroom/ip-bathroom-stonework-1-1.JPG",
+                "/bathroom/ip-bathroom-stonework-1-2.JPG",
+                "/bathroom/ip-bathroom-stonework-1-3.JPG",
+                "/bathroom/ip-bathroom-stonework-1-4.JPG"
               ],
               "afterImages": [
-                "/f-bathroom-stonework-1-1.JPG",
-                "/f-bathroom-stonework-1-2.JPG"
+                "/bathroom/f-bathroom-stonework-1-1.JPG",
+                "/bathroom/f-bathroom-stonework-1-2.JPG"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
@@ -86,16 +86,12 @@
             {
               "id": 19,
               "title": "Bathroom Remodel",
-              "beforeImages" : [
-                "/b-bathroom-3-1.JPG"
-              ],
               "progressImages" : [
-                "f-black-single-black-sink.MP4"
+                "/bathroom/f-bathroom-single-black-sink.MP4"  //error here - come back to fix
               ],
               "afterImages": [
-                "/f-bathrrom-single-black-sink-1-1.JPG",
-                "f-bathroom-toilet.JPG",
-                "f-bathroom-toilet-1-1.JPG"
+                "/bathroom/f-bathroom-toilet.JPG",
+                "/bathroom/f-bathroom-toilet-1-1.JPG"
 
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
@@ -105,7 +101,7 @@
               "id": 20,
               "title": "White Bathroom Remodel",
               "afterImages": [
-                "/f-bathroom-white-plastic-shower.JPG"
+                "/bathroom/f-bathroom-white-plastic-shower.JPG"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
@@ -114,7 +110,7 @@
               "id": 21,
               "title": "White Bathroom Remodel",
               "afterImages": [
-                "/f-full-bathroom.JPG"
+                "/bathroom/f-full-bathroom.JPG"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
@@ -123,7 +119,7 @@
               "id": 22,
               "title": "Bathroom Glass Shower",
               "afterImages": [
-                "/f-glass-shower-1-1.JPG"
+                "/bathroom/f-glass-shower-1-1.JPG"
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             }

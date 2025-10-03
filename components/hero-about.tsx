@@ -9,7 +9,7 @@ export function HeroAbout() {
       id="about"
       className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16 relative bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url('${getImagePath('/construction-hero-lowercase.jpg')}')`,
+        backgroundImage: `url('${getImagePath('/full-construction/construction-hero-lowercase.jpg')}')`,
       }}
     >
       <div className="absolute inset-0 bg-black/75"></div>
