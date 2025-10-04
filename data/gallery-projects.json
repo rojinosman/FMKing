@@ -134,14 +134,17 @@
             {
               "id": 21,
               "title": "Fireplace Installation",
-              "beforeImages": [
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg"
-              ],
               "afterImages": [
-                "/placeholder.jpg"
+                "/fireplace/f-fireplace-video.MP4"
+              ],
+              "description": "Complete fireplace installation with custom mantel and surround."
+            },
+
+            {
+              "id": 21,
+              "title": "Fireplace Installation",
+              "afterImages": [
+                "/fireplace/f-black-fireplace-video.MP4"
               ],
               "description": "Complete fireplace installation with custom mantel and surround."
             }
@@ -167,6 +170,8 @@
             }
           ]
         },
+
+
         {
           "id": "stairs",
           "name": "Stairs",
@@ -175,13 +180,18 @@
               "id": 20,
               "title": "Stairs",
               "beforeImages": [
-                "/placeholder.jpg"
+                "/stairs/b-under-stairs-1-1.JPG"
               ],
               "progressImages": [
-                "/placeholder.svg"
+                "/stairs/ip-stairs-1-1.JPG",
+                "/stairs/ip-stairs-1-2.JPG",
+                "/stairs/ip-stairs-1-3.JPG"
               ],
               "afterImages": [
-                "/white-stairs.jpeg"
+                "/stairs/f-under-stairs-1-1.JPG",
+                "/stairs/f-under-stairs-1-2.JPG",
+                "/stairs/f-under-stairs-1-3.JPG"
+
               ],
               "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
             }
@@ -194,14 +204,26 @@
             {
               "id": 24,
               "title": "Hardwood Flooring Installation",
-              "beforeImages": [
-                "/placeholder.jpg"
-              ],
               "progressImages": [
-                "/placeholder.jpg"
+                "/flooring/ip-flooring-1-1.JPG",
+                "/flooring/ip-flooring-1-2.JPG",
+                "/flooring/ip-flooring-1-3.JPG"
               ],
               "afterImages": [
-                "/placeholder.jpg"
+                "/flooring/f-flooring-1-1.JPG",
+                "/flooring/f-flooring-1-2.JPG"
+              ],
+              "description": "Complete hardwood flooring installation with modern finish."
+            },
+            {
+              "id": 25,
+              "title": "Hardwood Flooring Installation",
+              "afterImages": [
+                "/flooring/f-flooring-gray-vinyl-1-1.JPG",
+                "/flooring/f-flooring-gray-vinyl-1-2.JPG",
+                "/flooring/f-flooring-gray-vinyl-1-3.JPG",
+                "/flooring/f-flooring-gray-vinyl-1-4.JPG"
+                
               ],
               "description": "Complete hardwood flooring installation with modern finish."
             }
@@ -214,19 +236,15 @@
             {
               "id": 25,
               "title": "Custom Door Installation",
-              "beforeImages": [
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg"
-              ],
               "afterImages": [
-                "/placeholder.jpg"
+                "/doors/f-front-door.JPG"
               ],
               "description": "Custom door installation with modern hardware and finish."
             }
           ]
         },
+
+
         {
           "id": "HVAC",
           "name": "HVAC",
@@ -247,6 +265,7 @@
             }
           ]
         },
+
         {
           "id": "plumbing",
           "name": "Plumbing",
@@ -254,14 +273,8 @@
             {
               "id": 22,
               "title": "Fireplace Installation",
-              "beforeImages": [
-                "/placeholder.jpg"
-              ],
-              "progressImages": [
-                "/placeholder.jpg"
-              ],
               "afterImages": [
-                "/placeholder.jpg"
+                "/plumbing/f-plumbing.JPG"
               ],
               "description": "Complete fireplace installation with custom mantel and surround."
             }
