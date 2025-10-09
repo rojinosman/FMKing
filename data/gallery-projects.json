@@ -23,6 +23,14 @@
                 "/kitchen/sink-video.mp4"
               ],
               "description": "Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances."
+            },
+            {
+              "id": 3,
+              "title": "Modern Kitchen Renovation",
+              "afterImages": [
+                "/kitchen/f-kitchen-white-1-1.JPG"
+              ],
+              "description": "Complete kitchen transformation with custom cabinetry, quartz countertops."
             }
           ]
         },
@@ -156,7 +164,7 @@
           "projects": [
             {
               "id": 22,
-              "title": "Fireplace Installation",
+              "title": "Pool",
               "beforeImages": [
                 "/placeholder.jpg"
               ],
@@ -183,15 +191,32 @@
                 "/stairs/b-under-stairs-1-1.JPG"
               ],
               "progressImages": [
-                "/stairs/ip-stairs-1-1.JPG",
-                "/stairs/ip-stairs-1-2.JPG",
-                "/stairs/ip-stairs-1-3.JPG"
+                "/stairs/ip-under-stairs-1-1.JPG",
+                "/stairs/ip-under-stairs-1-2.JPG"
               ],
               "afterImages": [
                 "/stairs/f-under-stairs-1-1.JPG",
                 "/stairs/f-under-stairs-1-2.JPG",
                 "/stairs/f-under-stairs-1-3.JPG"
 
+              ],
+              "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
+            },
+            {
+              "id": 21,
+              "title": "Stairs",
+              "afterImages": [
+                "/stairs/ip-led-stairs-1-1.JPG",
+                "/stairs/ip-led-stairs-1-2.jpeg",
+                "/stairs/ip-led-stairs-1-3.JPG"
+              ],
+              "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
+            },
+            {
+              "id": 23,
+              "title": "Stairs",
+              "afterImages": [
+                "/stairs/white-stairs.jpeg"
               ],
               "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
             }
@@ -205,9 +230,9 @@
               "id": 24,
               "title": "Hardwood Flooring Installation",
               "progressImages": [
-                "/flooring/ip-flooring-1-1.JPG",
-                "/flooring/ip-flooring-1-2.JPG",
-                "/flooring/ip-flooring-1-3.JPG"
+                "/flooring/ip-flooring-1-1.jpeg",
+                "/flooring/ip-flooring-1-2.jpeg",
+                "/flooring/ip-flooring-1-3.jpeg"
               ],
               "afterImages": [
                 "/flooring/f-flooring-1-1.JPG",
@@ -222,7 +247,8 @@
                 "/flooring/f-flooring-gray-vinyl-1-1.JPG",
                 "/flooring/f-flooring-gray-vinyl-1-2.JPG",
                 "/flooring/f-flooring-gray-vinyl-1-3.JPG",
-                "/flooring/f-flooring-gray-vinyl-1-4.JPG"
+                "/flooring/f-flooring-gray-vinyl-1-4.JPG",
+                "/flooring/f-vinyal-flooring.JPG"
                 
               ],
               "description": "Complete hardwood flooring installation with modern finish."
@@ -271,10 +297,26 @@
           "name": "Plumbing",
           "projects": [
             {
-              "id": 22,
-              "title": "Fireplace Installation",
+              "id": 40,
+              "title": "Plumbing",
+              "afterImages": [
+                "/plumbing/ip-plumbing-black-pipe.JPG"
+              ],
+              "description": "Complete fireplace installation with custom mantel and surround."
+            },
+            {
+              "id": 41,
+              "title": "Plumbing",
               "afterImages": [
                 "/plumbing/f-plumbing.JPG"
+              ],
+              "description": "Complete fireplace installation with custom mantel and surround."
+            },
+            {
+              "id": 42,
+              "title": "Plumbing Fixtures",
+              "afterImages": [
+                "/plumbing/f-plumbing-fixtures.JPG"
               ],
               "description": "Complete fireplace installation with custom mantel and surround."
             }
