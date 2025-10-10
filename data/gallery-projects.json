@@ -34,8 +34,6 @@
             }
           ]
         },
-
-
         {
           "id": "bathroom",
           "name": "Bathroom",
@@ -43,7 +41,7 @@
             {
               "id": 31,
               "title": "Shower Remodel",
-              "beforeImages" : [
+              "beforeImages": [
                 "/bathroom/ip-corrner-shower1.jpeg"
               ],
               "afterImages": [
@@ -51,11 +49,10 @@
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
-
             {
               "id": 32,
               "title": "Master Bathroom Remodel",
-              "beforeImages" : [
+              "beforeImages": [
                 "/bathroom/b-bathroom-1-1.JPG",
                 "/bathroom/ip-bathroom-wall-1-1.JPG"
               ],
@@ -65,7 +62,6 @@
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
-
             {
               "id": 33,
               "title": "Master Bathroom Remodel",
@@ -74,11 +70,10 @@
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
-
             {
               "id": 34,
               "title": "Bathroom Remodel",
-              "progressImages" : [
+              "progressImages": [
                 "/bathroom/ip-bathroom-stonework-1-1.JPG",
                 "/bathroom/ip-bathroom-stonework-1-2.JPG",
                 "/bathroom/ip-bathroom-stonework-1-3.JPG",
@@ -90,21 +85,18 @@
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
-
             {
               "id": 35,
               "title": "Bathroom Remodel",
-              "progressImages" : [
+              "progressImages": [
                 "/bathroom/f-bathroom-single-black-sink.MP4"
               ],
               "afterImages": [
                 "/bathroom/f-bathroom-toilet.JPG",
                 "/bathroom/f-bathroom-toilet-1-1.JPG"
-
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
-
             {
               "id": 36,
               "title": "White Bathroom Remodel",
@@ -113,7 +105,6 @@
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
-
             {
               "id": 37,
               "title": "White Bathroom Remodel",
@@ -122,7 +113,6 @@
               ],
               "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
             },
-
             {
               "id": 38,
               "title": "Bathroom Glass Shower",
@@ -133,8 +123,6 @@
             }
           ]
         },
-
-        
         {
           "id": "fireplace",
           "name": "Fireplace",
@@ -147,7 +135,6 @@
               ],
               "description": "Complete fireplace installation with custom mantel and surround."
             },
-
             {
               "id": 62,
               "title": "Fireplace Installation",
@@ -178,8 +165,6 @@
             }
           ]
         },
-
-
         {
           "id": "stairs",
           "name": "Stairs",
@@ -198,12 +183,11 @@
                 "/stairs/f-under-stairs-1-1.JPG",
                 "/stairs/f-under-stairs-1-2.JPG",
                 "/stairs/f-under-stairs-1-3.JPG"
-
               ],
               "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
             },
             {
-              "id": 21,
+              "id": 122,
               "title": "Stairs",
               "afterImages": [
                 "/stairs/ip-led-stairs-1-1.JPG",
@@ -213,7 +197,7 @@
               "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
             },
             {
-              "id": 23,
+              "id": 123,
               "title": "Stairs",
               "afterImages": [
                 "/stairs/white-stairs.jpeg"
@@ -249,7 +233,6 @@
                 "/flooring/f-flooring-gray-vinyl-1-3.JPG",
                 "/flooring/f-flooring-gray-vinyl-1-4.JPG",
                 "/flooring/f-vinyal-flooring.JPG"
-                
               ],
               "description": "Complete hardwood flooring installation with modern finish."
             }
@@ -269,8 +252,6 @@
             }
           ]
         },
-
-
         {
           "id": "HVAC",
           "name": "HVAC",
@@ -291,7 +272,6 @@
             }
           ]
         },
-
         {
           "id": "plumbing",
           "name": "Plumbing",
@@ -367,11 +347,6 @@
         }
       ]
     },
-
-
-
-
-
     {
       "id": "NewConstruction",
       "name": "New Construction",
@@ -381,7 +356,7 @@
           "name": "Fire Systems",
           "projects": [
             {
-              "id": 26,
+              "id": 361,
               "title": "Two-Story Home Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -397,7 +372,7 @@
               "description": "Two-story addition adding 800 sq ft of living space with seamless architectural integration."
             },
             {
-              "id": 27,
+              "id": 362,
               "title": "Master Suite Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -418,8 +393,8 @@
           "name": "Electrical",
           "projects": [
             {
-              "id": 28,
-              "title": "Fireplace Installation",
+              "id": 363,
+              "title": "Electrical Installation",
               "beforeImages": [
                 "/placeholder.jpg"
               ],
@@ -438,7 +413,7 @@
           "name": "HVAC",
           "projects": [
             {
-              "id": 28,
+              "id": 364,
               "title": "Fireplace Installation",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -458,7 +433,7 @@
           "name": "Pools",
           "projects": [
             {
-              "id": 28,
+              "id": 365,
               "title": "Fireplace Installation",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -478,7 +453,7 @@
           "name": "Doors",
           "projects": [
             {
-              "id": 28,
+              "id": 366,
               "title": "Fireplace Installation",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -498,7 +473,7 @@
           "name": "Drywall",
           "projects": [
             {
-              "id": 29,
+              "id": 367,
               "title": "Sunroom Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -519,7 +494,7 @@
           "name": "Windows",
           "projects": [
             {
-              "id": 30,
+              "id": 368,
               "title": "Sunroom Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -540,7 +515,7 @@
           "name": "Foundation",
           "projects": [
             {
-              "id": 31,
+              "id": 369,
               "title": "Sunroom Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -561,7 +536,7 @@
           "name": "Frame",
           "projects": [
             {
-              "id": 32,
+              "id": 370,
               "title": "Sunroom Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -582,7 +557,7 @@
           "name": "Stucco",
           "projects": [
             {
-              "id": 33,
+              "id": 371,
               "title": "Sunroom Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -603,7 +578,7 @@
           "name": "Insulation",
           "projects": [
             {
-              "id": 34,
+              "id": 372,
               "title": "Sunroom Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -624,7 +599,7 @@
           "name": "Roofing",
           "projects": [
             {
-              "id": 35,
+              "id": 373,
               "title": "Sunroom Addition",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -645,7 +620,7 @@
           "name": "Gutters",
           "projects": [
             {
-              "id": 37,
+              "id": 374,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -668,7 +643,7 @@
           "name": "Plumbing",
           "projects": [
             {
-              "id": 36,
+              "id": 375,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -688,12 +663,6 @@
         }
       ]
     },
-
-
-
-
-
-
     {
       "id": "landscaping",
       "name": "Landscaping",
@@ -703,7 +672,7 @@
           "name": "Gazebo",
           "projects": [
             {
-              "id": 37,
+              "id": 751,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -726,7 +695,7 @@
           "name": "Fencing",
           "projects": [
             {
-              "id": 37,
+              "id": 752,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -749,7 +718,7 @@
           "name": "Dirt Work",
           "projects": [
             {
-              "id": 37,
+              "id": 753,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -772,7 +741,7 @@
           "name": "Turf",
           "projects": [
             {
-              "id": 43,
+              "id": 754,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -795,7 +764,7 @@
           "name": "Concrete",
           "projects": [
             {
-              "id": 41,
+              "id": 755,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -818,7 +787,7 @@
           "name": "Electrical",
           "projects": [
             {
-              "id": 39,
+              "id": 756,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -841,7 +810,7 @@
           "name": "Plumbing",
           "projects": [
             {
-              "id": 37,
+              "id": 757,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -864,7 +833,7 @@
           "name": "Gas Fixtures",
           "projects": [
             {
-              "id": 37,
+              "id": 758,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -887,7 +856,7 @@
           "name": "Gutters",
           "projects": [
             {
-              "id": 37,
+              "id": 759,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -910,7 +879,7 @@
           "name": "Retaining Wall",
           "projects": [
             {
-              "id": 43,
+              "id": 760,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -930,13 +899,6 @@
         }
       ]
     },
-
-
-
-
-
-
-
     {
       "id": "commercial",
       "name": "Commercial",
@@ -946,7 +908,7 @@
           "name": "Bar Area Construction",
           "projects": [
             {
-              "id": 47,
+              "id": 1051,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -963,12 +925,13 @@
               "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
             }
           ]
-        },{
+        },
+        {
           "id": "plumbing",
           "name": "Plumbing",
           "projects": [
             {
-              "id": 45,
+              "id": 1052,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -983,11 +946,11 @@
                 "/placeholder.jpg"
               ],
               "description": "Complete pipe replacement from old galvanized to modern copper piping system."
-          },
-          {
-            "id": 46,
-            "title": "Bathroom Plumbing Upgrade",
-            "beforeImages": [
+            },
+            {
+              "id": 1053,
+              "title": "Bathroom Plumbing Upgrade",
+              "beforeImages": [
                 "/placeholder.jpg"
               ],
               "progressImages": [
@@ -1005,7 +968,7 @@
           "name": "Electrical",
           "projects": [
             {
-              "id": 47,
+              "id": 1054,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1028,7 +991,7 @@
           "name": "Frame",
           "projects": [
             {
-              "id": 47,
+              "id": 1055,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1051,7 +1014,7 @@
           "name": "Stucco",
           "projects": [
             {
-              "id": 47,
+              "id": 1056,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1074,7 +1037,7 @@
           "name": "Flooring",
           "projects": [
             {
-              "id": 47,
+              "id": 1057,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1097,7 +1060,7 @@
           "name": "Building Deaigns",
           "projects": [
             {
-              "id": 47,
+              "id": 1058,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1120,7 +1083,7 @@
           "name": "Maintnence",
           "projects": [
             {
-              "id": 47,
+              "id": 1059,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1143,7 +1106,7 @@
           "name": "Paint",
           "projects": [
             {
-              "id": 47,
+              "id": 1060,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1166,7 +1129,7 @@
           "name": "Roofing",
           "projects": [
             {
-              "id": 47,
+              "id": 1061,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1189,7 +1152,7 @@
           "name": "HVAC",
           "projects": [
             {
-              "id": 47,
+              "id": 1062,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1212,7 +1175,7 @@
           "name": "Electricaln Panel",
           "projects": [
             {
-              "id": 47,
+              "id": 1063,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1235,7 +1198,7 @@
           "name": "Foundation",
           "projects": [
             {
-              "id": 47,
+              "id": 1064,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1258,7 +1221,7 @@
           "name": "Bathroom",
           "projects": [
             {
-              "id": 47,
+              "id": 1065,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1281,7 +1244,7 @@
           "name": "Doors",
           "projects": [
             {
-              "id": 47,
+              "id": 1066,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1304,7 +1267,7 @@
           "name": "Windows",
           "projects": [
             {
-              "id": 47,
+              "id": 1067,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1327,7 +1290,7 @@
           "name": "metalBeams",
           "projects": [
             {
-              "id": 47,
+              "id": 1068,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1350,7 +1313,7 @@
           "name": "baseBoards",
           "projects": [
             {
-              "id": 47,
+              "id": 1069,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1373,7 +1336,7 @@
           "name": "landscaping",
           "projects": [
             {
-              "id": 47,
+              "id": 1070,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1396,7 +1359,7 @@
           "name": "Insulation",
           "projects": [
             {
-              "id": 47,
+              "id": 1071,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1419,7 +1382,7 @@
           "name": "Concrete Work",
           "projects": [
             {
-              "id": 47,
+              "id": 1072,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1442,7 +1405,7 @@
           "name": "Fencing",
           "projects": [
             {
-              "id": 47,
+              "id": 1073,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1465,7 +1428,7 @@
           "name": "Gas Fixtures",
           "projects": [
             {
-              "id": 47,
+              "id": 1074,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1488,7 +1451,7 @@
           "name": "Fridges",
           "projects": [
             {
-              "id": 47,
+              "id": 1075,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1511,7 +1474,7 @@
           "name": "Stone Work",
           "projects": [
             {
-              "id": 47,
+              "id": 1076,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
@@ -1534,7 +1497,7 @@
           "name": "Water Heater",
           "projects": [
             {
-              "id": 47,
+              "id": 1077,
               "title": "Panel Upgrade & Rewiring",
               "beforeImages": [
                 "/placeholder.jpg",
