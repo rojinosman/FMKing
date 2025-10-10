@@ -319,11 +319,38 @@ export function WorkPortfolio() {
                     }`}
                     onClick={() => handleProjectSelect(project)}
                     >
-                    <img
-                        src={getImagePath(project.afterImages[0] || "/placeholder.svg")}
-                        alt={project.title}
-                        className="w-full aspect-square object-cover"
-                    />
+                    {(() => {
+                      const thumbnailSrc = project.afterImages[0] || "/placeholder.svg"
+                      const isVideoThumbnail = thumbnailSrc.toLowerCase().endsWith('.mp4') || thumbnailSrc.toLowerCase().endsWith('.webm') || thumbnailSrc.toLowerCase().endsWith('.ogg')
+                      
+                      if (isVideoThumbnail) {
+                        return (
+                          <div className="w-full aspect-square bg-muted flex items-center justify-center relative">
+                            <video
+                              src={getImagePath(thumbnailSrc)}
+                              className="w-full h-full object-cover"
+                              muted
+                              playsInline
+                            />
+                            <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+                              <div className="w-8 h-8 bg-white/90 rounded-full flex items-center justify-center">
+                                <svg className="w-4 h-4 text-black ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                                  <path d="M8 5v14l11-7z"/>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        )
+                      }
+                      
+                      return (
+                        <img
+                          src={getImagePath(thumbnailSrc)}
+                          alt={project.title}
+                          className="w-full aspect-square object-cover"
+                        />
+                      )
+                    })()}
                     </div>
                 ))}
                 </div>
