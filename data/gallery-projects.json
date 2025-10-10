@@ -41,7 +41,7 @@
           "name": "Bathroom",
           "projects": [
             {
-              "id": 15,
+              "id": 31,
               "title": "Shower Remodel",
               "beforeImages" : [
                 "/bathroom/ip-corrner-shower1.jpeg"
@@ -53,7 +53,7 @@
             },
 
             {
-              "id": 16,
+              "id": 32,
               "title": "Master Bathroom Remodel",
               "beforeImages" : [
                 "/bathroom/b-bathroom-1-1.JPG",
@@ -67,7 +67,7 @@
             },
 
             {
-              "id": 17,
+              "id": 33,
               "title": "Master Bathroom Remodel",
               "afterImages": [
                 "/bathroom/f-bathroom-gray-stone-1-1.JPG"
@@ -76,7 +76,7 @@
             },
 
             {
-              "id": 18,
+              "id": 34,
               "title": "Bathroom Remodel",
               "progressImages" : [
                 "/bathroom/ip-bathroom-stonework-1-1.JPG",
@@ -92,7 +92,7 @@
             },
 
             {
-              "id": 19,
+              "id": 35,
               "title": "Bathroom Remodel",
               "progressImages" : [
                 "/bathroom/f-bathroom-single-black-sink.MP4"
@@ -106,7 +106,7 @@
             },
 
             {
-              "id": 20,
+              "id": 36,
               "title": "White Bathroom Remodel",
               "afterImages": [
                 "/bathroom/f-bathroom-white-plastic-shower.JPG"
@@ -115,7 +115,7 @@
             },
 
             {
-              "id": 21,
+              "id": 37,
               "title": "White Bathroom Remodel",
               "afterImages": [
                 "/bathroom/f-full-bathroom.JPG"
@@ -124,7 +124,7 @@
             },
 
             {
-              "id": 22,
+              "id": 38,
               "title": "Bathroom Glass Shower",
               "afterImages": [
                 "/bathroom/f-glass-shower-1-1.JPG"
@@ -140,7 +140,7 @@
           "name": "Fireplace",
           "projects": [
             {
-              "id": 21,
+              "id": 61,
               "title": "Fireplace Installation",
               "afterImages": [
                 "/fireplace/f-fireplace-video.MP4"
@@ -149,7 +149,7 @@
             },
 
             {
-              "id": 21,
+              "id": 62,
               "title": "Fireplace Installation",
               "afterImages": [
                 "/fireplace/f-black-fireplace-video.MP4"
@@ -163,7 +163,7 @@
           "name": "Pools",
           "projects": [
             {
-              "id": 22,
+              "id": 91,
               "title": "Pool",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -185,7 +185,7 @@
           "name": "Stairs",
           "projects": [
             {
-              "id": 20,
+              "id": 121,
               "title": "Stairs",
               "beforeImages": [
                 "/stairs/b-under-stairs-1-1.JPG"
@@ -227,7 +227,7 @@
           "name": "Flooring",
           "projects": [
             {
-              "id": 24,
+              "id": 151,
               "title": "Hardwood Flooring Installation",
               "progressImages": [
                 "/flooring/ip-flooring-1-1.jpeg",
@@ -241,7 +241,7 @@
               "description": "Complete hardwood flooring installation with modern finish."
             },
             {
-              "id": 25,
+              "id": 152,
               "title": "Hardwood Flooring Installation",
               "afterImages": [
                 "/flooring/f-flooring-gray-vinyl-1-1.JPG",
@@ -260,7 +260,7 @@
           "name": "Doors",
           "projects": [
             {
-              "id": 25,
+              "id": 181,
               "title": "Custom Door Installation",
               "afterImages": [
                 "/doors/f-front-door.JPG"
@@ -276,8 +276,8 @@
           "name": "HVAC",
           "projects": [
             {
-              "id": 21,
-              "title": "Fireplace Installation",
+              "id": 211,
+              "title": "HVAC Installation",
               "beforeImages": [
                 "/placeholder.jpg"
               ],
@@ -297,7 +297,7 @@
           "name": "Plumbing",
           "projects": [
             {
-              "id": 40,
+              "id": 241,
               "title": "Plumbing",
               "afterImages": [
                 "/plumbing/ip-plumbing-black-pipe.JPG"
@@ -327,7 +327,7 @@
           "name": "Electrical",
           "projects": [
             {
-              "id": 23,
+              "id": 271,
               "title": "Electrical Panel Upgrade",
               "beforeImages": [
                 "/placeholder.jpg"
@@ -347,7 +347,7 @@
           "name": "Gutters",
           "projects": [
             {
-              "id": 37,
+              "id": 301,
               "title": "Pipe Replacement Project",
               "beforeImages": [
                 "/placeholder.jpg",
