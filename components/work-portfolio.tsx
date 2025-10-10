@@ -114,6 +114,30 @@ export function WorkPortfolio() {
   }
 
   const handleImageTypeToggle = (type: "before" | "progress" | "after") => {
+    console.log('Toggling to image type:', type)
+    
+    // Get images for the new type directly
+    let images: string[] = []
+    if (!selectedProject) {
+      images = []
+    } else {
+      switch (type) {
+        case "before":
+          images = selectedProject.beforeImages || []
+          break
+        case "progress":
+          images = selectedProject.progressImages || []
+          break
+        case "after":
+          images = selectedProject.afterImages || []
+          break
+        default:
+          images = selectedProject.beforeImages || []
+      }
+    }
+    
+    console.log('Images for type', type, ':', images)
+    
     setImageType(type)
     setShowMode(type === "progress" ? "inprogress" : (type as any))
     setCurrentImageIndex(0)
@@ -134,8 +158,15 @@ export function WorkPortfolio() {
   }
 
   const handleProjectSelect = (project: GalleryProject) => {
+    console.log('Selected project:', project.title, 'ID:', project.id)
+    console.log('Project images:', {
+      before: project.beforeImages,
+      progress: project.progressImages,
+      after: project.afterImages
+    })
     setSelectedProject(project)
     const firstType = getFirstAvailableImageType(project)
+    console.log('First available image type:', firstType)
     setImageType(firstType)
     setShowMode(firstType === "progress" ? "inprogress" : firstType as any)
     setCurrentImageIndex(0)
