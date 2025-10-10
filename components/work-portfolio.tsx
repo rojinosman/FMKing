@@ -72,7 +72,7 @@ export function WorkPortfolio() {
 
     // Check if current media is a video
     const currentMedia = images[currentImageIndex] || ""
-    const isVideo = currentMedia.endsWith('.mp4') || currentMedia.endsWith('.webm') || currentMedia.endsWith('.ogg')
+    const isVideo = currentMedia.toLowerCase().endsWith('.mp4') || currentMedia.toLowerCase().endsWith('.webm') || currentMedia.toLowerCase().endsWith('.ogg')
 
     // If it's a video, don't auto-advance (let video play fully)
     if (isVideo) return
@@ -192,7 +192,7 @@ export function WorkPortfolio() {
                 <div className="relative">
                     {(() => {
                       const currentMedia = getCurrentImages()[currentImageIndex] || "/placeholder.svg"
-                      const isVideo = currentMedia.endsWith('.mp4') || currentMedia.endsWith('.webm') || currentMedia.endsWith('.ogg')
+                      const isVideo = currentMedia.toLowerCase().endsWith('.mp4') || currentMedia.toLowerCase().endsWith('.webm') || currentMedia.toLowerCase().endsWith('.ogg')
                       
                       if (isVideo) {
                         return (
@@ -205,6 +205,14 @@ export function WorkPortfolio() {
                               loop
                               muted
                               playsInline
+                              controls
+                              onError={(e) => {
+                                console.error('Video loading error:', e);
+                                console.error('Video src:', getImagePath(currentMedia));
+                              }}
+                              onLoadStart={() => {
+                                console.log('Video loading started:', getImagePath(currentMedia));
+                              }}
                             />
                           </div>
                         )
