@@ -32,8 +32,10 @@ export function WorkPortfolio() {
   
   // Helper to get first available image type for a project
   const getFirstAvailableImageType = (project: GalleryProject): "before" | "progress" | "after" => {
-    if (project.beforeImages && project.beforeImages.length > 0) return "before"
-    if (project.progressImages && project.progressImages.length > 0) return "progress"
+    if (project?.beforeImages && project.beforeImages.length > 0) return "before"
+    if (project?.progressImages && project.progressImages.length > 0) return "progress"
+    if (project?.afterImages && project.afterImages.length > 0) return "after"
+    // If nothing is available, default to after (component will handle empty gracefully)
     return "after"
   }
 
@@ -55,13 +57,13 @@ export function WorkPortfolio() {
     if (!selectedProject) return []
     switch (imageType) {
       case "before":
-        return selectedProject.beforeImages || []
+        return selectedProject.beforeImages ?? []
       case "progress":
-        return selectedProject.progressImages || []
+        return selectedProject.progressImages ?? []
       case "after":
-        return selectedProject.afterImages || []
+        return selectedProject.afterImages ?? []
       default:
-        return selectedProject.beforeImages || []
+        return []
     }
   }
 
@@ -301,7 +303,7 @@ export function WorkPortfolio() {
                           size="sm"
                           onClick={() => handleImageTypeToggle("before")}
                       >
-                          Before ({selectedProject.beforeImages.length})
+                          Before ({selectedProject.beforeImages?.length ?? 0})
                       </Button>
                     )}
                     {selectedProject.progressImages && selectedProject.progressImages.length > 0 && (
@@ -310,16 +312,18 @@ export function WorkPortfolio() {
                           size="sm"
                           onClick={() => handleImageTypeToggle("progress")}
                       >
-                          Progress ({selectedProject.progressImages.length})
+                          Progress ({selectedProject.progressImages?.length ?? 0})
                       </Button>
                     )}
-                    <Button
-                        variant={imageType === "after" ? "default" : "outline"}
-                        size="sm"
-                        onClick={() => handleImageTypeToggle("after")}
-                    >
-                        After ({selectedProject.afterImages.length})
-                    </Button>
+                    {selectedProject.afterImages && selectedProject.afterImages.length > 0 && (
+                      <Button
+                          variant={imageType === "after" ? "default" : "outline"}
+                          size="sm"
+                          onClick={() => handleImageTypeToggle("after")}
+                      >
+                          After ({selectedProject.afterImages?.length ?? 0})
+                      </Button>
+                    )}
                     </div>
 
                     {getCurrentImages().length > 1 && (
@@ -351,7 +355,11 @@ export function WorkPortfolio() {
                     onClick={() => handleProjectSelect(project)}
                     >
                     {(() => {
-                      const thumbnailSrc = project.afterImages[0] || "/placeholder.svg"
+                      // Prefer afterImages for thumbnail, otherwise fallback to progress, then before
+                      const thumbFromAfter = project.afterImages?.[0]
+                      const thumbFromProgress = project.progressImages?.[0]
+                      const thumbFromBefore = project.beforeImages?.[0]
+                      const thumbnailSrc = thumbFromAfter || thumbFromProgress || thumbFromBefore || "/placeholder.svg"
                       const isVideoThumbnail = thumbnailSrc.toLowerCase().endsWith('.mp4') || thumbnailSrc.toLowerCase().endsWith('.webm') || thumbnailSrc.toLowerCase().endsWith('.ogg')
                       
                       if (isVideoThumbnail) {
