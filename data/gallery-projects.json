@@ -152,14 +152,8 @@
             {
               "id": 91,
               "title": "Pool",
-              "beforeImages": [
-                "/MoreToCome.png"
-              ],
               "progressImages": [
-                "/MoreToCome.png"
-              ],
-              "afterImages": [
-                "/MoreToCome.png"
+                "/pools/pool-video.mp4"
               ],
               "description": "Complete fireplace installation with custom mantel and surround."
             }
@@ -195,7 +189,7 @@
                 "/stairs/ip-led-stairs-1-3.JPG"
               ],
               "afterImages": [
-                "/stairs/8760947329894176842.mp4"
+                "/stairs/f-led-stairs.mp4"
               ],
               "description": "Transformed unfinished basement into a beautiful family room with full bathroom."
             },
@@ -312,14 +306,9 @@
             {
               "id": 271,
               "title": "Electrical Panel Upgrade",
-              "beforeImages": [
-                "/MoreToCome.png"
-              ],
-              "progressImages": [
-                "/MoreToCome.png"
-              ],
               "afterImages": [
-                "/MoreToCome.png"
+                "/electrical/electricalPanel.mp4",
+                "/electrical/electricalPanel2.mp4"
               ],
               "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
             }
@@ -437,17 +426,11 @@
           "projects": [
             {
               "id": 365,
-              "title": "Fireplace Installation",
-              "beforeImages": [
-                "/MoreToCome.png"
-              ],
+              "title": "Pool",
               "progressImages": [
-                "/MoreToCome.png"
+                "/pools/pool-video.mp4"
               ],
-              "afterImages": [
-                "/MoreToCome.png"
-              ],
-              "description": "Complete fireplace installation with custom mantel and surround."
+              "description": "Pool painting and resurfacing to restore beauty and functionality."
             }
           ]
         },
