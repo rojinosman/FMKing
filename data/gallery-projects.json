@@ -305,10 +305,9 @@
           "projects": [
             {
               "id": 271,
-              "title": "Electrical Panel Upgrade",
+              "title": "Electrical",
               "afterImages": [
-                "/electrical/electricalPanel.mp4",
-                "/electrical/electricalPanel2.mp4"
+                "/MoreToCome.png"
               ],
               "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
             }
@@ -387,14 +386,9 @@
             {
               "id": 363,
               "title": "Electrical Installation",
-              "beforeImages": [
-                "/MoreToCome.png"
-              ],
-              "progressImages": [
-                "/MoreToCome.png"
-              ],
               "afterImages": [
-                "/MoreToCome.png"
+                "/electrical/electricalPanel.mp4",
+                "/electrical/electricalPanel2.mp4"
               ],
               "description": "Complete fireplace installation with custom mantel and surround."
             }
