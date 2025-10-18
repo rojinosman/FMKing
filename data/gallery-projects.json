@@ -129,6 +129,17 @@
             },
             {
               "id": 38,
+              "title": "Modern Dark Bathroom Remodel",
+              "afterImages": [
+                "/bathroom/f-dark-bathroom5.jpeg",
+                "/bathroom/f-dark-bathroom4.jpeg",
+                "/bathroom/f-dark-bathroom2.jpeg",
+                "/bathroom/f-dark-bathroom.jpeg"
+              ],
+              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+            },
+            {
+              "id": 39,
               "title": "Bathroom Glass Shower",
               "afterImages": [
                 "/bathroom/f-glass-shower-1-1.JPG"
