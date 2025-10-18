@@ -521,7 +521,7 @@
           "projects": [
             {
               "id": 369,
-              "title": "Sunroom Addition",
+              "title": "Foundation Work",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -532,7 +532,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+              "description": "Foundation construction and preparation for new building."
             }
           ]
         },
@@ -542,7 +542,7 @@
           "projects": [
             {
               "id": 370,
-              "title": "Sunroom Addition",
+              "title": "Framing Construction",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -553,7 +553,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+              "description": "Structural framing construction for new building."
             }
           ]
         },
@@ -563,7 +563,7 @@
           "projects": [
             {
               "id": 371,
-              "title": "Sunroom Addition",
+              "title": "Stucco Application",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -574,7 +574,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+              "description": "Exterior stucco application and finishing."
             }
           ]
         },
@@ -584,7 +584,7 @@
           "projects": [
             {
               "id": 372,
-              "title": "Sunroom Addition",
+              "title": "Insulation Installation",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -595,7 +595,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+              "description": "Insulation installation for energy efficiency."
             }
           ]
         },
@@ -605,7 +605,7 @@
           "projects": [
             {
               "id": 373,
-              "title": "Sunroom Addition",
+              "title": "Roofing Installation",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -616,7 +616,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+              "description": "Roofing installation and weatherproofing."
             }
           ]
         },
@@ -626,7 +626,7 @@
           "projects": [
             {
               "id": 374,
-              "title": "Pipe Replacement Project",
+              "title": "Gutter Installation",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -639,7 +639,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+              "description": "Gutter system installation for new construction."
             }
           ]
         },
@@ -649,7 +649,7 @@
           "projects": [
             {
               "id": 375,
-              "title": "Pipe Replacement Project",
+              "title": "Plumbing Installation",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -662,7 +662,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+              "description": "Complete plumbing system installation for new construction."
             }
           ]
         }
@@ -678,7 +678,7 @@
           "projects": [
             {
               "id": 751,
-              "title": "Pipe Replacement Project",
+              "title": "Gazebo Construction",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -691,7 +691,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+              "description": "Custom gazebo construction and installation."
             }
           ]
         },
@@ -701,7 +701,7 @@
           "projects": [
             {
               "id": 752,
-              "title": "Pipe Replacement Project",
+              "title": "Fencing Installation",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -714,7 +714,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+              "description": "Fencing installation and construction."
             }
           ]
         },
@@ -724,7 +724,7 @@
           "projects": [
             {
               "id": 753,
-              "title": "Pipe Replacement Project",
+              "title": "Dirt Work & Grading",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -737,7 +737,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete pipe replacement from old galvanized to modern copper piping system."
+              "description": "Site preparation, dirt work, and grading services."
             }
           ]
         },
@@ -747,7 +747,7 @@
           "projects": [
             {
               "id": 754,
-              "title": "Panel Upgrade & Rewiring",
+              "title": "Artificial Turf Installation",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -760,7 +760,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+              "description": "Artificial turf installation and landscaping."
             }
           ]
         },
@@ -770,7 +770,7 @@
           "projects": [
             {
               "id": 755,
-              "title": "Panel Upgrade & Rewiring",
+              "title": "Concrete Work",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -783,7 +783,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+              "description": "Concrete work and finishing for landscaping projects."
             }
           ]
         },
@@ -793,7 +793,7 @@
           "projects": [
             {
               "id": 756,
-              "title": "Panel Upgrade & Rewiring",
+              "title": "Landscape Electrical",
               "beforeImages": [
                 "/MoreToCome.png",
                 "/MoreToCome.png"
@@ -806,7 +806,7 @@
                 "/MoreToCome.png",
                 "/MoreToCome.png"
               ],
-              "description": "Complete electrical panel upgrade and house rewiring for modern safety standards."
+              "description": "Electrical work for landscape lighting and features."
             }
           ]
         },
