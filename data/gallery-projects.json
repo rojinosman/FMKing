@@ -14,19 +14,19 @@
               "afterImages": [
                 "/kitchen/white-kitchen-video.MP4"
               ],
-              "description": "Complete white kitchen transformation featuring modern cabinetry, elegant lighting, and premium finishes with video documentation."
+              "description": "Modern white kitchen renovation with sleek cabinetry and contemporary finishes."
             },
             {
               "id": 2,
-              "title": "Kitchen Sink & Fixture Installation",
+              "title": "Kitchen Sink Installation",
               "afterImages": [
                 "/kitchen/sink-video.mp4"
               ],
-              "description": "Professional kitchen sink and fixture installation with modern plumbing, hardware, and premium materials."
+              "description": "Professional kitchen sink and fixture installation with modern plumbing and hardware."
             },
             {
               "id": 3,
-              "title": "Black Backsplash Kitchen Installation",
+              "title": "Black Backsplash Installation",
               "beforeImages": [
                 "/kitchen/ip-black-backsplash.jpeg",
                 "/kitchen/ip-black-backsplash2.jpeg",
@@ -36,7 +36,7 @@
                 "/kitchen/f-black-backsplash.jpeg",
                 "/kitchen/f-black-backsplash2.jpeg"
               ],
-              "description": "Professional kitchen backsplash installation featuring modern black tile work and precision craftsmanship."
+              "description": "Modern black backsplash installation with precision tile work."
             },
             {
               "id": 4,
@@ -44,7 +44,7 @@
               "afterImages": [
                 "/kitchen/f-kitchen-white-1-1.JPG"
               ],
-              "description": "Complete kitchen cabinet installation with modern white finishes, custom hardware, and contemporary design."
+              "description": "Modern white kitchen cabinet installation with contemporary design."
             }
           ]
         },
@@ -61,11 +61,11 @@
               "afterImages": [
                 "/bathroom/white-shower1.jpeg"
               ],
-              "description": "Professional corner shower installation with modern white tile work and precision waterproofing."
+              "description": "Modern corner shower installation with white tile work."
             },
             {
               "id": 32,
-              "title": "Corner Shower Bathroom Remodel",
+              "title": "Bathroom Corner Shower Remodel",
               "beforeImages": [
                 "/bathroom/b-bathroom-1-1.JPG",
                 "/bathroom/ip-bathroom-wall-1-1.JPG"
@@ -74,7 +74,7 @@
                 "/bathroom/f-corner-shower-1-1.jpeg",
                 "/bathroom/f-corner-shower-1-2.jpeg"
               ],
-              "description": "Complete bathroom renovation featuring modern corner shower installation with premium tile work and fixtures."
+              "description": "Complete bathroom renovation with modern corner shower installation."
             },
             {
               "id": 33,
@@ -82,7 +82,7 @@
               "afterImages": [
                 "/bathroom/f-bathroom-gray-stone-1-1.JPG"
               ],
-              "description": "Elegant bathroom design featuring sophisticated gray stone finishes and modern fixtures."
+              "description": "Elegant bathroom with gray stone finishes and modern fixtures."
             },
             {
               "id": 34,
@@ -97,7 +97,7 @@
                 "/bathroom/f-bathroom-stonework-1-1.JPG",
                 "/bathroom/f-bathroom-stonework-1-2.JPG"
               ],
-              "description": "Professional bathroom stonework installation with detailed progress documentation and premium finishing."
+              "description": "Professional bathroom stonework installation with detailed progress documentation."
             },
             {
               "id": 35,
@@ -109,7 +109,7 @@
                 "/bathroom/f-bathroom-toilet.JPG",
                 "/bathroom/f-bathroom-toilet-1-1.JPG"
               ],
-              "description": "Modern bathroom installation featuring sleek black sink fixtures and contemporary toilet design."
+              "description": "Modern bathroom with black sink fixtures and contemporary toilet design."
             },
             {
               "id": 36,
@@ -117,7 +117,7 @@
               "afterImages": [
                 "/bathroom/f-bathroom-white-plastic-shower.JPG"
               ],
-              "description": "Clean white plastic shower installation with modern design and easy maintenance features."
+              "description": "Clean white plastic shower installation with modern design."
             },
             {
               "id": 37,
@@ -125,7 +125,7 @@
               "afterImages": [
                 "/bathroom/f-full-bathroom.JPG"
               ],
-              "description": "Full bathroom renovation showcasing comprehensive design and installation work."
+              "description": "Complete bathroom renovation with comprehensive design and installation."
             },
             {
               "id": 38,
@@ -136,7 +136,7 @@
                 "/bathroom/f-dark-bathroom2.jpeg",
                 "/bathroom/f-dark-bathroom.jpeg"
               ],
-              "description": "Contemporary dark bathroom design featuring sophisticated color schemes and modern fixtures."
+              "description": "Contemporary dark bathroom design with sophisticated color schemes."
             },
             {
               "id": 39,
@@ -144,7 +144,7 @@
               "afterImages": [
                 "/bathroom/f-glass-shower-1-1.JPG"
               ],
-              "description": "Premium glass shower installation with modern design and professional finishing."
+              "description": "Premium glass shower installation with modern design."
             }
           ]
         },
@@ -158,7 +158,7 @@
               "afterImages": [
                 "/fireplace/f-fireplace-video.MP4"
               ],
-              "description": "Complete modern white fireplace installation with custom mantel, surround, and contemporary design elements. Features clean lines and premium finishing touches."
+              "description": "Modern white fireplace installation with custom mantel and contemporary design."
             },
             {
               "id": 62,
@@ -166,7 +166,7 @@
               "afterImages": [
                 "/fireplace/f-black-fireplace-video.MP4"
               ],
-              "description": "Sophisticated black fireplace installation with sleek modern design, custom black mantel, and dramatic contrast elements. Premium materials and professional craftsmanship."
+              "description": "Sophisticated black fireplace installation with sleek modern design and custom mantel."
             }
           ]
         },
@@ -176,11 +176,11 @@
           "projects": [
             {
               "id": 91,
-              "title": "Swimming Pool Construction & Installation",
+              "title": "Swimming Pool Construction",
               "progressImages": [
                 "/pools/pool-video.mp4"
               ],
-              "description": "Complete swimming pool construction and installation project featuring professional excavation, plumbing, electrical work, and finishing. Expert craftsmanship from ground breaking to completion."
+              "description": "Complete swimming pool construction with professional excavation, plumbing, and finishing."
             }
           ]
         },
