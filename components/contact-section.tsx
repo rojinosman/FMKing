@@ -1,8 +1,10 @@
 "use client"
 
 import { useState } from "react"
+import emailjs from '@emailjs/browser'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { useToast } from "@/hooks/use-toast"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -12,6 +14,8 @@ export function ContactSection() {
     project: '',
     message: ''
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const { toast } = useToast()
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -21,40 +25,83 @@ export function ContactSection() {
     }))
   }
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    
-    // Create mailto link with form data
-    const subject = encodeURIComponent(`Quote Request from ${formData.name}`)
-    const body = encodeURIComponent(`
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Project Type: ${formData.project}
+    setIsSubmitting(true)
 
-Message:
-${formData.message}
+    try {
+      // Initialize EmailJS with your public key
+      emailjs.init("8IHci55UuLnVY_a_E")
 
----
-Sent from FMKing Construction website
-    `)
-    
-    const mailtoLink = `mailto:rojindawood@gmail.com?subject=${subject}&body=${body}`
-    
-    // Open mailto link
-    window.location.href = mailtoLink
-    
-    // Show success message
-    alert("Your email client will open with a pre-filled message. Please send the email to complete your quote request.")
-    
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      project: '',
-      message: ''
-    })
+      console.log('Sending email with data:', {
+        from_name: formData.name,
+        from_email: formData.email,
+        phone: formData.phone,
+        project_type: formData.project,
+        message: formData.message,
+        name: formData.name,
+        email: formData.email
+      })
+
+      // Send email using EmailJS
+      const result = await emailjs.send(
+        'service_oxe82eh',
+        'template_z5odieu',
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          phone: formData.phone,
+          project_type: formData.project,
+          message: formData.message,
+          name: formData.name,
+          email: formData.email
+        }
+      )
+
+      console.log('EmailJS result:', result)
+
+      if (result.status === 200) {
+        toast({
+          title: "Message sent successfully!",
+          description: "Thank you for your message. We'll get back to you soon.",
+        })
+        
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          project: '',
+          message: ''
+        })
+      } else {
+        throw new Error('Failed to send message')
+      }
+    } catch (error) {
+      console.error('Error sending email:', error)
+      
+      let errorMessage = "Please try again or contact us directly at rojindawood@gmail.com"
+      
+      if (error instanceof Error) {
+        if (error.message.includes('Invalid template')) {
+          errorMessage = "Template configuration error. Please check your EmailJS template settings."
+        } else if (error.message.includes('Invalid service')) {
+          errorMessage = "Service configuration error. Please check your EmailJS service settings."
+        } else if (error.message.includes('Invalid user')) {
+          errorMessage = "User authentication error. Please check your EmailJS public key."
+        } else {
+          errorMessage = `Error: ${error.message}`
+        }
+      }
+      
+      toast({
+        title: "Error sending message",
+        description: errorMessage,
+        variant: "destructive",
+      })
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -158,9 +205,10 @@ Sent from FMKing Construction website
 
                 <Button
                   type="submit"
+                  disabled={isSubmitting}
                   className="w-full"
                 >
-                  Get Free Quote
+                  {isSubmitting ? "Sending..." : "Get Free Quote"}
                 </Button>
               </form>
             </CardContent>
