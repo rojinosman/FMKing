@@ -373,9 +373,9 @@
           "projects": [
             {
               "id": 361,
-              "title": "Two-Story Home Addition",
+              "title": "Fire Sprinkler System Installation",
               "beforeImages": [
-                "/MoreToCome.png"
+                "/fire-systems/ip-fire-sprinkler.JPG"
               ],
               "progressImages": [
                 "/MoreToCome.png",
@@ -385,11 +385,11 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Two-story addition adding 800 sq ft of living space with seamless architectural integration."
+              "description": "Fire sprinkler system installation for safety compliance."
             },
             {
               "id": 362,
-              "title": "Master Suite Addition",
+              "title": "Fire Safety System Installation",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -400,7 +400,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Luxurious master suite addition with walk-in closet and spa bathroom."
+              "description": "Complete fire safety system installation and setup."
             }
           ]
         },
@@ -410,12 +410,12 @@
           "projects": [
             {
               "id": 363,
-              "title": "Electrical Installation",
+              "title": "Electrical Panel Installation",
               "afterImages": [
                 "/electrical/electricalPanel.mp4",
                 "/electrical/electricalPanel2.mp4"
               ],
-              "description": "Complete fireplace installation with custom mantel and surround."
+              "description": "Electrical panel installation and wiring for new construction."
             }
           ]
         },
@@ -425,7 +425,7 @@
           "projects": [
             {
               "id": 364,
-              "title": "Fireplace Installation",
+              "title": "HVAC System Installation",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -435,7 +435,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Complete fireplace installation with custom mantel and surround."
+              "description": "HVAC system installation for new construction project."
             }
           ]
         },
@@ -445,11 +445,11 @@
           "projects": [
             {
               "id": 365,
-              "title": "Pool",
+              "title": "New Pool Construction",
               "progressImages": [
                 "/pools/pool-video.mp4"
               ],
-              "description": "Pool painting and resurfacing to restore beauty and functionality."
+              "description": "New swimming pool construction from excavation to completion."
             }
           ]
         },
