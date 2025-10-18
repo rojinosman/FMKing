@@ -459,7 +459,7 @@
           "projects": [
             {
               "id": 366,
-              "title": "Fireplace Installation",
+              "title": "Door Installation",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -469,7 +469,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Complete fireplace installation with custom mantel and surround."
+              "description": "Door installation for new construction project."
             }
           ]
         },
@@ -479,7 +479,7 @@
           "projects": [
             {
               "id": 367,
-              "title": "Sunroom Addition",
+              "title": "Drywall Installation",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -490,7 +490,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+              "description": "Drywall installation and finishing for new construction."
             }
           ]
         },
@@ -500,7 +500,7 @@
           "projects": [
             {
               "id": 368,
-              "title": "Sunroom Addition",
+              "title": "Window Installation",
               "beforeImages": [
                 "/MoreToCome.png"
               ],
@@ -511,7 +511,7 @@
               "afterImages": [
                 "/MoreToCome.png"
               ],
-              "description": "Bright sunroom addition with floor-to-ceiling windows and vaulted ceiling."
+              "description": "Window installation for new construction project."
             }
           ]
         },
