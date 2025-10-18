@@ -10,23 +10,23 @@
           "projects": [
             {
               "id": 1,
-              "title": "Modern Kitchen Renovation",
+              "title": "Modern White Kitchen Renovation",
               "afterImages": [
                 "/kitchen/white-kitchen-video.MP4"
               ],
-              "description": "Complete kitchen transformation with custom cabinetry, quartz countertops."
+              "description": "Complete white kitchen transformation featuring modern cabinetry, elegant lighting, and premium finishes with video documentation."
             },
             {
               "id": 2,
-              "title": "Modern Kitchen Sink Transformation",
+              "title": "Kitchen Sink & Fixture Installation",
               "afterImages": [
                 "/kitchen/sink-video.mp4"
               ],
-              "description": "Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances."
+              "description": "Professional kitchen sink and fixture installation with modern plumbing, hardware, and premium materials."
             },
             {
               "id": 3,
-              "title": "Modern Backsplash Kitchen Renovation",
+              "title": "Black Backsplash Kitchen Installation",
               "beforeImages": [
                 "/kitchen/ip-black-backsplash.jpeg",
                 "/kitchen/ip-black-backsplash2.jpeg",
@@ -36,15 +36,15 @@
                 "/kitchen/f-black-backsplash.jpeg",
                 "/kitchen/f-black-backsplash2.jpeg"
               ],
-              "description": "Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances."
+              "description": "Professional kitchen backsplash installation featuring modern black tile work and precision craftsmanship."
             },
             {
               "id": 4,
-              "title": "Modern Kitchen Renovation",
+              "title": "White Kitchen Cabinet Installation",
               "afterImages": [
                 "/kitchen/f-kitchen-white-1-1.JPG"
               ],
-              "description": "Complete kitchen transformation with custom cabinetry, quartz countertops."
+              "description": "Complete kitchen cabinet installation with modern white finishes, custom hardware, and contemporary design."
             }
           ]
         },
@@ -54,18 +54,18 @@
           "projects": [
             {
               "id": 31,
-              "title": "Shower Remodel",
+              "title": "Corner Shower Installation",
               "beforeImages": [
                 "/bathroom/ip-corrner-shower1.jpeg"
               ],
               "afterImages": [
                 "/bathroom/white-shower1.jpeg"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Professional corner shower installation with modern white tile work and precision waterproofing."
             },
             {
               "id": 32,
-              "title": "Master Bathroom Remodel",
+              "title": "Corner Shower Bathroom Remodel",
               "beforeImages": [
                 "/bathroom/b-bathroom-1-1.JPG",
                 "/bathroom/ip-bathroom-wall-1-1.JPG"
@@ -74,19 +74,19 @@
                 "/bathroom/f-corner-shower-1-1.jpeg",
                 "/bathroom/f-corner-shower-1-2.jpeg"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Complete bathroom renovation featuring modern corner shower installation with premium tile work and fixtures."
             },
             {
               "id": 33,
-              "title": "Master Bathroom Remodel",
+              "title": "Gray Stone Bathroom Design",
               "afterImages": [
                 "/bathroom/f-bathroom-gray-stone-1-1.JPG"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Elegant bathroom design featuring sophisticated gray stone finishes and modern fixtures."
             },
             {
               "id": 34,
-              "title": "Bathroom Remodel",
+              "title": "Bathroom Stonework Installation",
               "progressImages": [
                 "/bathroom/ip-bathroom-stonework-1-1.JPG",
                 "/bathroom/ip-bathroom-stonework-1-2.JPG",
@@ -97,11 +97,11 @@
                 "/bathroom/f-bathroom-stonework-1-1.JPG",
                 "/bathroom/f-bathroom-stonework-1-2.JPG"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Professional bathroom stonework installation with detailed progress documentation and premium finishing."
             },
             {
               "id": 35,
-              "title": "Bathroom Remodel",
+              "title": "Black Sink Bathroom Installation",
               "progressImages": [
                 "/bathroom/f-bathroom-single-black-sink.MP4"
               ],
@@ -109,42 +109,42 @@
                 "/bathroom/f-bathroom-toilet.JPG",
                 "/bathroom/f-bathroom-toilet-1-1.JPG"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Modern bathroom installation featuring sleek black sink fixtures and contemporary toilet design."
             },
             {
               "id": 36,
-              "title": "White Bathroom Remodel",
+              "title": "White Plastic Shower Installation",
               "afterImages": [
                 "/bathroom/f-bathroom-white-plastic-shower.JPG"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Clean white plastic shower installation with modern design and easy maintenance features."
             },
             {
               "id": 37,
-              "title": "White Bathroom Remodel",
+              "title": "Complete Bathroom Renovation",
               "afterImages": [
                 "/bathroom/f-full-bathroom.JPG"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Full bathroom renovation showcasing comprehensive design and installation work."
             },
             {
               "id": 38,
-              "title": "Modern Dark Bathroom Remodel",
+              "title": "Modern Dark Bathroom Design",
               "afterImages": [
                 "/bathroom/f-dark-bathroom5.jpeg",
                 "/bathroom/f-dark-bathroom4.jpeg",
                 "/bathroom/f-dark-bathroom2.jpeg",
                 "/bathroom/f-dark-bathroom.jpeg"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Contemporary dark bathroom design featuring sophisticated color schemes and modern fixtures."
             },
             {
               "id": 39,
-              "title": "Bathroom Glass Shower",
+              "title": "Glass Shower Installation",
               "afterImages": [
                 "/bathroom/f-glass-shower-1-1.JPG"
               ],
-              "description": "Luxury bathroom renovation featuring marble tiles, walk-in shower, and custom vanity."
+              "description": "Premium glass shower installation with modern design and professional finishing."
             }
           ]
         },
@@ -154,19 +154,19 @@
           "projects": [
             {
               "id": 61,
-              "title": "Fireplace Installation",
+              "title": "Modern White Fireplace Installation",
               "afterImages": [
                 "/fireplace/f-fireplace-video.MP4"
               ],
-              "description": "Complete fireplace installation with custom mantel and surround."
+              "description": "Complete modern white fireplace installation with custom mantel, surround, and contemporary design elements. Features clean lines and premium finishing touches."
             },
             {
               "id": 62,
-              "title": "Fireplace Installation",
+              "title": "Elegant Black Fireplace Design",
               "afterImages": [
                 "/fireplace/f-black-fireplace-video.MP4"
               ],
-              "description": "Complete fireplace installation with custom mantel and surround."
+              "description": "Sophisticated black fireplace installation with sleek modern design, custom black mantel, and dramatic contrast elements. Premium materials and professional craftsmanship."
             }
           ]
         },
