@@ -26,6 +26,20 @@
             },
             {
               "id": 3,
+              "title": "Modern Backsplash Kitchen Renovation",
+              "beforeImages": [
+                "/kitchen/ip-black-backsplash.jpeg",
+                "/kitchen/ip-black-backsplash2.jpeg",
+                "/kitchen/ip-black-backsplash3.jpeg"
+              ],
+              "afterImages": [
+                "/kitchen/f-black-backsplash.jpeg",
+                "/kitchen/f-black-backsplash2.jpeg"
+              ],
+              "description": "Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances."
+            },
+            {
+              "id": 4,
               "title": "Modern Kitchen Renovation",
               "afterImages": [
                 "/kitchen/f-kitchen-white-1-1.JPG"
