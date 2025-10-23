@@ -332,8 +332,12 @@
             {
               "id": 271,
               "title": "Electrical Panel Upgrade",
+              "progressImages": [
+                "/lights/ip-ceiling-lighting-strip.mp4",
+              ],
               "afterImages": [
-                "/lights/ip-ceiling-lighting-strip.mp4"
+                "/lights/f-ceiling-light-strip.mp4"
+
               ],
               "description": "Modern ceiling light strip."
             }
