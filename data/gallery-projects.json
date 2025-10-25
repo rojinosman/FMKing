@@ -339,14 +339,6 @@
                 "/lights/f-ceiling-light-strip.mp4"
               ],
               "description": "Modern ceiling light strip."
-            },
-            {
-              "id": 272,
-              "tiitle": "Bed side lighting fixtures",
-              "afterImages": [
-                "/lights/f-bed-frame-lighting.mp4"
-              ],
-              "description": "Modern bed side lighting fixtures."
             }
           ]
         },

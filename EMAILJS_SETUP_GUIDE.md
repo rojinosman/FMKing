@@ -48,19 +48,12 @@ In `components/contact-section.tsx`, replace these placeholders:
 
 ```typescript
 // Replace these lines:
-emailjs.init("YOUR_PUBLIC_KEY")
+emailjs.init("w8W2bONAmt8YLxccJ")
 const result = await emailjs.send(
-  'YOUR_SERVICE_ID',      // Replace with your Service ID
-  'YOUR_TEMPLATE_ID',     // Replace with your Template ID
+  'service_hv6ytks',      // Replace with your Service ID
+  'template_z5odieu',     // Replace with your Template ID
 ```
 
-**Example:**
-```typescript
-emailjs.init("user_abc123def456")
-const result = await emailjs.send(
-  'service_xyz789',
-  'template_abc123',
-```
 
 ### Step 6: Test
 1. Save the file
