@@ -272,6 +272,23 @@
                 "/doors/f-front-door.JPG"
               ],
               "description": "Custom front door installation with modern hardware."
+            },
+            {
+              "id": 182,
+              "title": "Bathroom Door Installation",
+              "afterImages": [
+                "/doors/f-white-bathroom-door.jpg"
+              ],
+              "description": "Single bathroom door installation."
+            },
+            {
+              "id": 182,
+              "title": "Interior Double Door Installation",
+              "afterImages": [
+                "/doors/f-white-double-door.jpg",
+                "doors/f-double-door.jpg"
+              ],
+              "description": "Interior double door installation."
             }
           ]
         },
@@ -504,18 +521,22 @@
           "projects": [
             {
               "id": 368,
-              "title": "Window Installation",
-              "beforeImages": [
-                "/MoreToCome.png"
+              "title": "Double Window Installation",
+              "afterImages": [
+                "/windows/f-long-window.jpg"
               ],
+              "description": "Double window installation project"
+            },
+            {
+              "id": 370,
+              "title": "Single Window Installation",
               "progressImages": [
-                "/MoreToCome.png",
-                "/MoreToCome.png"
+                "/windows/ip-window.jpg"
               ],
               "afterImages": [
-                "/MoreToCome.png"
+                "/windows/f-single-window.jpg"
               ],
-              "description": "Window installation project in progress. Images coming shortly."
+              "description": "Single window installation project"
             }
           ]
         },
