@@ -45,6 +45,24 @@
                 "/kitchen/f-kitchen-white-1-1.JPG"
               ],
               "description": "Modern white kitchen cabinet installation with contemporary design."
+            },
+            {
+              "id": 5,
+              "title": "Cream Kitchen Cabinet Installation with Countertops",
+              "afterImages": [
+                "/kitchen/f-cream-cabinets.JPG"
+              ],
+              "description": "Modern cream kitchen cabinet installation with appliences."
+            },
+            {
+              "id": 6,
+              "title": "Wooden Kitchen Cabinet Installation",
+              "progressImages": [
+                "/kitchen/ip-white-island.JPG",
+                "/kitchen/ip-white-island2.JPG",
+                "/kitchen/ip-white-island3.JPG"
+              ],
+              "description": "Modern wooden kitchen cabinet installation with white marble countertops."
             }
           ]
         },
