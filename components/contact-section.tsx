@@ -31,7 +31,7 @@ export function ContactSection() {
 
     try {
       // Initialize EmailJS with your public key
-      emailjs.init("8IHci55UuLnVY_a_E")
+      emailjs.init("5iRleN3XdIosIIwHB")
 
       console.log('Sending email with data:', {
         from_name: formData.name,
@@ -45,8 +45,8 @@ export function ContactSection() {
 
       // Send email using EmailJS
       const result = await emailjs.send(
-        'service_oxe82eh',
-        'template_z5odieu',
+        'service_k2o757s',
+        'template_d3kkjpx',
         {
           from_name: formData.name,
           from_email: formData.email,

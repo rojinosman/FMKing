@@ -48,7 +48,7 @@ In `components/contact-section.tsx`, replace these placeholders:
 
 ```typescript
 // Replace these lines:
-emailjs.init("w8W2bONAmt8YLxccJ")
+emailjs.init("5iRleN3XdIosIIwHB")
 const result = await emailjs.send(
   'service_hv6ytks',      // Replace with your Service ID
   'template_z5odieu',     // Replace with your Template ID
