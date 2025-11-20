@@ -186,6 +186,14 @@
                 "/fireplace/f-black-fireplace-video.MP4"
               ],
               "description": "Sophisticated black fireplace installation with sleek modern design and custom mantel."
+            },
+            {
+              "id": 63,
+              "title": "Fireplace Remodeling",
+              "progressImages": [
+                "/fireplace/ip-fireplace.mp4"
+              ],
+              "description": "Fireplace installation."
             }
           ]
         },
