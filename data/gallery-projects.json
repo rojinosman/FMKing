@@ -63,6 +63,14 @@
                 "/kitchen/ip-white-island3.JPG"
               ],
               "description": "Modern wooden kitchen cabinet installation with white marble countertops."
+            },
+            {
+              "id": 7,
+              "title": "Modern Kitchen Transformation",
+              "progressImages": [
+                "/kitchen/ip-modern-kitchen.mp4"
+              ],
+              "description": "Modern kitchen remodel."
             }
           ]
         },
