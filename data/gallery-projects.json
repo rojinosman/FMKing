@@ -599,17 +599,10 @@
             {
               "id": 371,
               "title": "Stucco Application",
-              "beforeImages": [
-                "/MoreToCome.png"
-              ],
-              "progressImages": [
-                "/MoreToCome.png",
-                "/MoreToCome.png"
-              ],
               "afterImages": [
-                "/MoreToCome.png"
+                "/stucco/f-stucco.mp4"
               ],
-              "description": "Stucco application project in progress. Images coming shortly."
+              "description": "Stucco application for new construction."
             }
           ]
         },
@@ -620,17 +613,14 @@
             {
               "id": 372,
               "title": "Insulation Installation",
-              "beforeImages": [
-                "/MoreToCome.png"
-              ],
               "progressImages": [
-                "/MoreToCome.png",
-                "/MoreToCome.png"
+                "/insulation/ip-insulation1.mp4",
+                "/insulation/ip-insulation2.mp4"
               ],
               "afterImages": [
-                "/MoreToCome.png"
+                "/insulation/f-insulation.mp4"
               ],
-              "description": "Insulation installation project in progress. Images coming shortly."
+              "description": "Insulation installation."
             }
           ]
         },
@@ -685,8 +675,16 @@
             {
               "id": 375,
               "title": "Pipe Fitting Close Up",
-              "progressImages": [
+              "afterImages": [
                 "/plumbing/f-pipe-fitting.mp4"
+              ],
+              "description": "Plumbing installation video showcasing pipe fitting."
+            },
+            {
+              "id": 376,
+              "title": "Pipe Fitting Close Up",
+              "afterImages": [
+                "/plumbing/f-piping1.mp4"
               ],
               "description": "Plumbing installation project in progress."
             }
