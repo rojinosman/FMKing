@@ -25,7 +25,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run export           # generates the static site in ./out
+      - run: npm run export          
       - run: cp CNAME out/CNAME
       - run: mkdir -p out && touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
