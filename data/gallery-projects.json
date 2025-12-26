@@ -68,7 +68,8 @@
               "id": 7,
               "title": "Modern Kitchen Transformation",
               "progressImages": [
-                "/kitchen/ip-modern-kitchen.mp4"
+                "/kitchen/ip-modern-kitchen.mp4",
+                "/kitchen/ip-modern-kitchen2.mp4"
               ],
               "description": "Modern kitchen remodel."
             }
@@ -199,8 +200,10 @@
               "id": 63,
               "title": "Fireplace Remodeling",
               "progressImages": [
-                "/fireplace/ip-fireplace.mp4",
-                "/fireplace/f-fireplace-video.MP4"
+                "/fireplace/ip-fireplace.mp4"
+              ],
+              "afterImages": [
+                "/fireplace/f-fireplace-LED.jpg"
               ],
               "description": "Fireplace installation."
             }
@@ -528,17 +531,22 @@
             {
               "id": 367,
               "title": "Drywall Installation",
-              "beforeImages": [
-                "/MoreToCome.png"
-              ],
-              "progressImages": [
-                "/MoreToCome.png",
-                "/MoreToCome.png"
-              ],
               "afterImages": [
-                "/MoreToCome.png"
+                "/drywall/f-drywall1.JPG",
+                "/drywall/f-drywall2.JPG",
+                "/drywall/f-drywall3.JPG"
+
               ],
-              "description": "Drywall installation project in progress. Images coming shortly."
+              "description": "Drywall installation."
+            },
+            {
+              "id": 368,
+              "title": "Drywall Finishing",
+              "afterImages": [
+                "/drywall/f-drywall-ceiling.jpg",
+                "/drywall/f-drywall-ceiling2.jpg"
+              ],
+              "description": "Drywall installation"
             }
           ]
         },
@@ -812,19 +820,11 @@
             {
               "id": 755,
               "title": "Concrete Work",
-              "beforeImages": [
-                "/MoreToCome.png",
-                "/MoreToCome.png"
-              ],
-              "progressImages": [
-                "/MoreToCome.png",
-                "/MoreToCome.png"
-              ],
               "afterImages": [
-                "/MoreToCome.png",
-                "/MoreToCome.png"
+                "/concrete/f-concrete.jpg",
+                "/concrete/f-concrete2.jpg"
               ],
-              "description": "Concrete work project in progress. Images coming shortly."
+              "description": "Concrete installation"
             }
           ]
         },

@@ -35,7 +35,6 @@ export function Navigation() {
             </Button>
           </div>
         </div>
-
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
@@ -68,3 +67,4 @@ export function Navigation() {
     </nav>
   )
 }
+
